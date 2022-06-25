@@ -1,9 +1,25 @@
+import { any } from '@hapi/joi';
 import { Schema, model } from 'mongoose';
 
 const userSchema = new Schema(
   {
-    name: {
-      type: String
+    fname: {
+      type: String,
+      required: true
+    },
+    sname: {
+      type: String,
+      required: true
+    },
+    mailid: {
+      type: String,
+      required: true,
+      unique: (true,"Mail Already Exist")
+      
+    },
+    password: {
+      type: String,
+      required: true
     }
   },
   {

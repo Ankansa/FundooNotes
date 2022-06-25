@@ -10,7 +10,8 @@ import database from './config/database';
 import {
   appErrorHandler,
   genericErrorHandler,
-  notFound
+  notFound,
+  // uniqueHandeler
 } from './middlewares/error.middleware';
 import logger, { logStream } from './config/logger';
 

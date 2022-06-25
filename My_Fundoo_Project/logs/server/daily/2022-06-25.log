@@ -1,0 +1,890 @@
+error: 
+    status - 500 
+    message - TypeError: _joi.default.any(...).min is not a function
+    at newUserValidator (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\validators\/user.validator.js:8:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:42:12.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T18:43:41.315Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T18:43:46.298Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.any(...).min is not a function
+    at newUserValidator (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\validators\/user.validator.js:8:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:44:00.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T18:44:31.899Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T18:44:35.607Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: mailid: Path `mailid` is required., lname: Path `lname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:44:39.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T18:49:54.539Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T18:49:58.799Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mailid" is required 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:50:14.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T18:51:50.858Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T18:51:55.910Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mail" is required 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:51:59.811Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: mailid: Path `mailid` is required., lname: Path `lname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:52:27.076Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: mailid: Path `mailid` is required., lname: Path `lname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:57:32.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T18:58:31.236Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T18:58:35.227Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mail" is required 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:59:17.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:00:03.214Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:00:07.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:01:56.140Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:02:00.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:03:17.186Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:03:21.280Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo_Ankan.users index: mailid_1 dup key: { mailid: "ankan.sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:04:12.938Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:04:12.971Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:14:15.986Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:14:19.975Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan.sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:14:33.641Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:14:33.662Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mailid" must be a valid email 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:15:16.930Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" must be [ref:password] 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:16:17.357Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:21:00.740Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:21:04.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:21:11.550Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:21:15.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:21:23.201Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:21:26.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:25:24.725Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:25:29.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:26:15.600Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:26:19.194Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:26:43.447Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:26:43.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:27:13.815Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:27:17.279Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:27:21.900Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:27:21.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:31:58.483Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:32:02.578Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:32:49.141Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:32:52.775Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:32:57.405Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:32:57.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:34:08.444Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:34:12.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:34:33.690Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:34:37.193Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:34:44.133Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:34:44.156Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:36:35.040Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:36:38.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:37:22.245Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:37:25.359Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:37:29.317Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:37:29.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:46:27.472Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:46:30.684Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:47:52.305Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:47:55.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:50:19.041Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:50:21.939Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:50:42.210Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:50:42.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:57:52.748Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:57:55.761Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:58:06.230Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:58:06.266Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T19:58:25.906Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T19:58:28.688Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:58:33.454Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:58:33.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:03:17.909Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:03:21.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:03:57.574Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:04:00.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:04:36.693Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:04:40.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:05:52.970Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:05:55.903Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:06:28.389Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:06:31.016Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:06:41.324Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:06:41.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:07:06.317Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:07:09.365Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:07:21.122Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:07:23.857Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:07:28.737Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:07:28.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:10:49.433Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:10:52.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:11:53.700Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:11:56.608Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:12:05.647Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:12:05.678Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:12:53.807Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:12:56.630Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:13:01.963Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:13:02.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:13:31.757Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:13:34.475Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:13:44.888Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:13:44.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:14:17.945Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:14:20.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:18:48.111Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:18:51.085Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:18:56.394Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:18:56.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:19:08.615Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:19:11.365Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:19:17.993Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:19:18.016Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:20:30.223Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:20:33.406Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:20:40.816Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:20:43.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:25:31.947Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:25:35.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:26:25.786Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:26:28.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:26:39.188Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:26:42.187Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:27:23.323Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:27:26.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:27:32.177Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:27:34.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:27:39.970Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:27:42.876Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:27:51.106Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:27:51.144Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:28:13.255Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:28:15.986Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:28:20.934Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:28:20.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:28:50.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:28:58.380Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:29:01.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:29:07.873Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:29:10.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T20:30:09.758Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T20:30:12.757Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo_Ankan.users index: mailid_1 dup key: { mailid: "ankan.sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:30:23.746Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:30:23.785Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" must be [ref:password] 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:34:14.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T02:45:56.289Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T02:45:59.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:09:04.038Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T03:09:07.424Z"}
+error: 
+    status - 500 
+    message - ReferenceError: hashedpassword is not defined
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:51:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:46:21)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:103:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T03:09:42.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:10:26.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:10:32.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:10:47.256Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T03:10:50.099Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:53:27) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T03:10:55.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:12:20.409Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T03:12:23.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:15:56.840Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T03:15:59.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:19:16.656Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T03:19:19.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:19:34.642Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T03:19:37.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:19:46.306Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T03:19:49.186Z"}

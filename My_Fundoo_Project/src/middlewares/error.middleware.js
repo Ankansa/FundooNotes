@@ -66,3 +66,27 @@ export function genericErrorHandler(err, req, res, next) {
     message: err.message
   });
 }
+
+
+//#### My Edited Error########################
+// Not Working
+
+
+// export function uniqueHandeler(err, req, res, next) {
+//   if (err.code === 11000) {
+//     logger.error(`
+//       status - ${err.code}
+//       message - ${err.message} 
+//       url - ${req.originalUrl} 
+//       method - ${req.method} 
+//       IP - ${req.ip}
+//     `);
+//     res.status(err.code).json({
+//       code: err.code,
+//       message: "Mail Already Exist"
+//     });
+//   } else {
+//     next(err);
+//   }
+// }
+
