@@ -5,7 +5,7 @@ const userSchema = new Schema(
   {
     fname: {
       type: String,
-      required: true
+      // required: true
     },
     sname: {
       type: String,
@@ -14,7 +14,7 @@ const userSchema = new Schema(
     mailid: {
       type: String,
       required: true,
-      unique: (true,"Mail Already Exist")
+      unique: (true)
       
     },
     password: {
