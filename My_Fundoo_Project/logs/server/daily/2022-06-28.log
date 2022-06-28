@@ -42,3 +42,35 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T0
 info: Connected to the database. {"timestamp":"2022-06-28T02:52:19.542Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:52:52.539Z"}
 info: Connected to the database. {"timestamp":"2022-06-28T02:52:55.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T06:54:34.556Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T06:54:38.259Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo_Ankan.users index: mailid_1 dup key: { mailid: "kd@ownmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T06:56:17.413Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T06:56:17.482Z"}

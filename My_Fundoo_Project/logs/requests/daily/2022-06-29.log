@@ -1,0 +1,6 @@
+info: ::1 - - [28/Jun/2022:21:30:26 +0000] "POST /api/v1/note/newNote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:32:59 +0000] "POST /api/v1/note/newNote HTTP/1.1" 201 231 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:33:50 +0000] "POST /api/v1/note/newNote HTTP/1.1" 201 233 "-" "PostmanRuntime/7.29.0"
+

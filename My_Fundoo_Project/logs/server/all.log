@@ -2455,3 +2455,59 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T0
 info: Connected to the database. {"timestamp":"2022-06-28T02:52:19.542Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:52:52.539Z"}
 info: Connected to the database. {"timestamp":"2022-06-28T02:52:55.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T06:54:34.556Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T06:54:38.259Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo_Ankan.users index: mailid_1 dup key: { mailid: "kd@ownmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T06:56:17.413Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T06:56:17.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:29:23.354Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:29:26.649Z"}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\routes\/index.js:15:23)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\/index.js:33:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Wed Jun 29 2022 03:01:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":109597},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18371478,"external":19827875,"heapTotal":88903680,"heapUsed":48592680,"rss":123916288},"pid":14120,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\routes\\/index.js:15:23)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:33:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-06-28T21:31:44.745Z","trace":[{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":32,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":33,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:32:51.512Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:32:54.781Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:35:46.595Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:35:49.890Z"}
