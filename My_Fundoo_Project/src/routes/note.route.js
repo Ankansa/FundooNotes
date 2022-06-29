@@ -11,5 +11,9 @@ const noteRouter = express.Router();
 
 noteRouter.post('/newnote',userAuth,newNoteValidator,noteController.newNote );
 
+//route to get all note
+
+noteRouter.get("/allnote",userAuth,noteController.getAllNote)
+
 export default noteRouter;
 

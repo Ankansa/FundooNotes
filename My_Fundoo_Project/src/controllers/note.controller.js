@@ -17,3 +17,17 @@ export const newNote = async (req, res, next) => {
       }
     };
     
+// get All Note##############
+
+export const getAllNote = async ( req, res, next) =>{
+  try {
+        const data = await NoteService.getAllNotes();
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'All users fetched successfully'
+        });
+      } catch (error) {
+        next(error);
+      }
+    };
