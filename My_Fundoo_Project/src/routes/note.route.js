@@ -9,11 +9,15 @@ const noteRouter = express.Router();
 
 //route to create a new note
 
-noteRouter.post('/newnote',userAuth,newNoteValidator,noteController.newNote );
+noteRouter.post('/',userAuth,newNoteValidator,noteController.newNote );
 
 //route to get all note
 
-noteRouter.get("/allnote",userAuth,noteController.getAllNote)
+noteRouter.get('/',userAuth,noteController.getAllNote)
+
+//route to get one note
+
+noteRouter.get("/:_id",userAuth,noteController.getOneNote)
 
 export default noteRouter;
 

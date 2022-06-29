@@ -25,9 +25,28 @@ export const getAllNote = async ( req, res, next) =>{
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,
-          message: 'All users fetched successfully'
+          message: 'All notes fetched successfully'
         });
       } catch (error) {
         next(error);
+      }
+    };
+
+
+    // get one Note##############
+
+export const getOneNote = async ( req, res, next) =>{
+  try {
+        const data = await NoteService.getOneNote(req.params._id);
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'Note fetched successfully'
+        });
+      } catch (error) {
+        res.status(HttpStatus.BAD_REQUEST).json({
+          code: HttpStatus.BAD_REQUEST,
+          message: `${error}`
+        });
       }
     };
