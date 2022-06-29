@@ -254,3 +254,107 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T1
 info: Connected to the database. {"timestamp":"2022-06-29T11:56:47.207Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:57:02.930Z"}
 info: Connected to the database. {"timestamp":"2022-06-29T11:57:05.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:57:28.394Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:57:31.337Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T12:00:36.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:40:04.625Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:40:08.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:51:42.319Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:51:45.741Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:53:14.059Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:53:17.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:53:25.530Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:53:28.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:54:23.638Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:54:26.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:54:41.199Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:54:44.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:54:59.648Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:55:02.705Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:55:16.952Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:55:19.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:56:25.266Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:56:28.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:56:42.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:56:48.862Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:56:52.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:59:38.597Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:59:42.047Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:10:36.307Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:10:41.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:11:19.784Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:11:22.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:13:02.317Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:13:09.023Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:16:19.611Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:16:22.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:17:59.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:18:09.052Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:18:52.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:19:17.132Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:19:20.148Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:20:00.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:20:10.933Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:20:15.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:20:40.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:20:49.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:21:09.324Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:21:13.051Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:39:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.UpdateNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:36:24)
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:58:40)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-29T15:21:18.952Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:39:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.UpdateNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:36:24)
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:58:40)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-29T15:23:06.775Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:23:36.247Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:23:40.419Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '62bc6ab3053164405cff5623' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-29T15:23:43.739Z"}

@@ -22,12 +22,32 @@ export const getAllNotes = async () => {
 
 export const getOneNote = async (id) => {
   const data = await Note.findById(id);
-  console.log(data);
   if(data != null){
     return data;
   }
   else{
     throw new Error("Invalid ID");
   }
+  
+};
+
+//Update note ######################
+
+export const UpdateNote = async (_id, body) => {
+  const data = await Note.findByIdAndUpdate(
+    {
+      _id
+    },
+    body, 
+    {
+      new: true
+    }
+    );
+    if(data != null){
+      return data;
+    }
+    else{
+      throw new Error("Invalid ID");
+    }
   
 };

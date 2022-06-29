@@ -19,5 +19,9 @@ noteRouter.get('/',userAuth,noteController.getAllNote)
 
 noteRouter.get("/:_id",userAuth,noteController.getOneNote)
 
+//route to update note
+
+noteRouter.put("/:_id",userAuth,noteController.UpdateNote)
+
 export default noteRouter;
 
