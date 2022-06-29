@@ -51,3 +51,16 @@ export const UpdateNote = async (_id, body) => {
     }
   
 };
+
+// Delete Note #############
+
+export const deleteNote = async (id) => {
+  const data = await Note.findById(id);
+  if(data!=null){
+  await Note.findByIdAndDelete(id);
+  return " " ;
+  }else
+  {
+    throw new Error("Invalid ID");
+  }
+};

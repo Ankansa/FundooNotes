@@ -23,5 +23,9 @@ noteRouter.get("/:_id",userAuth,noteController.getOneNote)
 
 noteRouter.put("/:_id",userAuth,noteController.UpdateNote)
 
+// Delete Note ##############
+
+noteRouter.delete("/:_id",userAuth,noteController.deleteNote)
+
 export default noteRouter;
 
