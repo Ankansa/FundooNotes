@@ -716,3 +716,45 @@ info: ::1 - - [28/Jun/2022:21:32:59 +0000] "POST /api/v1/note/newNote HTTP/1.1" 
 
 info: ::1 - - [28/Jun/2022:21:33:50 +0000] "POST /api/v1/note/newNote HTTP/1.1" 201 233 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [28/Jun/2022:21:45:04 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 314 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:47:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:52:02 +0000] "POST /api/v1/note/newnote HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:54:16 +0000] "POST /api/v1/note/newnote HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:54:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:56:19 +0000] "POST /api/v1/note/newnote HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:11:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:12:49 +0000] "POST /api/v1/note/newnote HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:16:29 +0000] "POST /api/v1/note/newnote/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJzQG1haWwuY29tIiwiaWQiOiI2MmJiNzY1ZmIwY2FmOTFjMzBiZDk0OTUiLCJpYXQiOjE2NTY0NTMyOTR9.nUjVuKsbCvPu95WkvpT_Pvgjslcv6lPSt5CS5Lkg5_Y HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:19:40 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:23:51 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 400 63 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:25:05 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 250 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:27:36 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 256 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:55:27 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 219 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:45:10 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 224 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:46:54 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 231 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:48:37 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:49:36 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:51:42 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Jun 29 2022 08:23:29 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128902},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19442851,"external":20918728,"heapTotal":90640384,"heapUsed":59712032,"rss":128942080},"pid":12404,"uid":null,"version":"v18.3.0"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","trace":[]}
+info: ::1 - - [29/Jun/2022:02:56:25 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.0"
+

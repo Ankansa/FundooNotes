@@ -1938,3 +1938,111 @@ ReferenceError: noteRoute is not defined
     at Function.Module._load (node:internal/modules/cjs/loader:827:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
     at node:internal/main/run_main_module:17:47 {"date":"Wed Jun 29 2022 03:01:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":109597},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18371478,"external":19827875,"heapTotal":88903680,"heapUsed":48592680,"rss":123916288},"pid":14120,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\routes\\/index.js:15:23)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:33:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-06-28T21:31:44.745Z","trace":[{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":32,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":33,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/newnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T21:52:02.547Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/newnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T21:54:16.202Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T21:56:19.934Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T22:12:49.201Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T22:19:40.031Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:51:42.399Z"}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Jun 29 2022 08:23:29 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128902},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19442827,"external":20918664,"heapTotal":90640384,"heapUsed":59673032,"rss":128409600},"pid":12404,"uid":null,"version":"v18.3.0"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","timestamp":"2022-06-29T02:53:29.850Z","trace":[]}

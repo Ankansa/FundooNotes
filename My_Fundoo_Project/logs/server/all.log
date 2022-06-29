@@ -2511,3 +2511,158 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T2
 info: Connected to the database. {"timestamp":"2022-06-28T21:32:54.781Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:35:46.595Z"}
 info: Connected to the database. {"timestamp":"2022-06-28T21:35:49.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:36:05.544Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:36:08.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:39:29.158Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:39:32.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:40:08.551Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:40:11.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:41:05.301Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:41:08.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:42:16.269Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:42:19.526Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:47:43.895Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:47:49.447Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/newnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T21:52:02.547Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/newnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T21:54:16.202Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T21:56:19.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:09:36.758Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T22:09:40.418Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T22:12:49.201Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T22:19:40.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:23:38.018Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T22:23:42.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:29:37.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:30:05.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:30:12.605Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T22:30:15.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:30:49.542Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T22:30:53.328Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:43:34.023Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:43:37.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:46:26.399Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:46:30.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:46:44.829Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:46:48.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:48:01.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:48:22.779Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:48:25.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:49:20.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:49:30.171Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:49:33.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:51:34.139Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:51:37.700Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:51:42.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:52:32.387Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:52:36.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:53:20.754Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:53:24.060Z"}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Jun 29 2022 08:23:29 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128902},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19442827,"external":20918664,"heapTotal":90640384,"heapUsed":59673032,"rss":128409600},"pid":12404,"uid":null,"version":"v18.3.0"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","timestamp":"2022-06-29T02:53:29.850Z","trace":[]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:54:57.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:56:16.836Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:56:20.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T06:12:55.350Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T06:12:58.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T06:25:50.029Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T06:25:53.889Z"}
