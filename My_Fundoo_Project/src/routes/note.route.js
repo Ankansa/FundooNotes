@@ -27,5 +27,8 @@ noteRouter.put("/:_id",userAuth,noteController.UpdateNote)
 
 noteRouter.delete("/:_id",userAuth,noteController.deleteNote)
 
+// Archive Note ##############
+
+noteRouter.put("/archive/:_id",userAuth,noteController.archive,)
 export default noteRouter;
 

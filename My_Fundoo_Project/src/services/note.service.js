@@ -13,8 +13,8 @@ export const newnote = async (body) => {
 
 //get all note
 
-export const getAllNotes = async () => {
-  const data = await Note.find();
+export const getAllNotes = async (UserID) => {
+  const data = await Note.find({UserID : UserID});
   return data;
 };
 
@@ -64,3 +64,21 @@ export const deleteNote = async (id) => {
     throw new Error("Invalid ID");
   }
 };
+
+// Archive note #############
+
+export const noteArchive= async(id)=>{
+  var data = await Note.findById(id);
+  // console.log("This Is The archive status before archive: ",data);
+  if(data!= null){
+    console.log("This is for note.service id : ",id);
+    const updateData = await Note.findOneAndUpdate({ _id : id }, {isArchived : true}, {new : true});
+    // console.log("This Is The archive status after archive: ",updateData);
+    return updateData ;
+  }else
+  {
+    throw new Error("Invalid ID");
+  }
+};
+
+// Is their any requirment to handel error for invalid ID ????????

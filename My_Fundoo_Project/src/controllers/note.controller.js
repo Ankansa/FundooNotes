@@ -1,5 +1,7 @@
 import HttpStatus from 'http-status-codes';
 import * as NoteService from '../services/note.service';
+// import { user } from '../middlewares/auth.middleware';
+
 
 
 //create a new note################
@@ -7,7 +9,7 @@ import * as NoteService from '../services/note.service';
 export const newNote = async (req, res, next) => {
       try {
         const data = await NoteService.newnote(req.body);
-        console.log("This is the body on controller : ", req.body);
+        // console.log("This is the body on controller : ", req.body);
         res.status(HttpStatus.CREATED).json({
           code: HttpStatus.CREATED,
           data: data,
@@ -22,7 +24,7 @@ export const newNote = async (req, res, next) => {
 
 export const getAllNote = async ( req, res, next) =>{
   try {
-        const data = await NoteService.getAllNotes();
+        const data = await NoteService.getAllNotes(req.body.UserID);
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,
@@ -83,3 +85,26 @@ export const deleteNote = async (req, res, next) =>{
     });
   }
 };
+
+
+
+// Archive notes ################
+
+
+export const archive = async(req, res,next) =>{
+  try {
+    const data = await NoteService.noteArchive(req.params._id);
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'Note Archive successfully'
+        });
+  }catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    }); 
+  }
+};
+
+// In archive any required to handel error ??????????????????????????

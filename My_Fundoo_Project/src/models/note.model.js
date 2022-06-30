@@ -1,3 +1,4 @@
+import { boolean } from '@hapi/joi';
 import { Schema, model } from 'mongoose';
 
 
@@ -17,9 +18,11 @@ color: {
     type: String,
 },
 
-// isArchived: {
-//     type: Boolean,
-// },
+isArchived: {
+    default : false,
+    type: Boolean,
+    
+},
 // isDeleted: {
 //     type: Boolean,
 // },

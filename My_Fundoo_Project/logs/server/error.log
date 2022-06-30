@@ -2413,3 +2413,82 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2022-06-29T20:21:45.795Z"}
+error: uncaughtException: True is not defined
+ReferenceError: True is not defined
+    at _callee6$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:74:70)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Jun 30 2022 21:37:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":262961},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18309781,"external":19871672,"heapTotal":51679232,"heapUsed":47160664,"rss":90931200},"pid":7672,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: True is not defined\n    at _callee6$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/note.service.js:74:70)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2022-06-30T16:07:52.077Z","trace":[{"column":70,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/note.service.js","function":"_callee6$","line":74,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:255:19)","syscall":"querySrv","timestamp":"2022-06-30T19:01:14.893Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:27:52)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:25:24)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-30T19:40:09.336Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got as@ownmail.com
+    at model.Query.Query.find (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:17:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:16:25)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:27:40)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-30T19:41:17.554Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got as@ownmail.com
+    at model.Query.Query.find (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:17:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:16:25)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:27:40)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-30T19:47:42.592Z"}
