@@ -108,3 +108,23 @@ export const archive = async(req, res,next) =>{
 };
 
 // In archive any required to handel error ??????????????????????????
+
+
+// Trash notes ################
+
+
+export const trash = async(req, res,next) =>{
+  try {
+    const data = await NoteService.trash(req.params._id);
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'Note successfully move to Trash'
+        });
+  }catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    }); 
+  }
+};

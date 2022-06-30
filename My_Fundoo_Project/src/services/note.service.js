@@ -68,10 +68,10 @@ export const deleteNote = async (id) => {
 // Archive note #############
 
 export const noteArchive= async(id)=>{
-  var data = await Note.findById(id);
+  const data = await Note.findById(id);
   // console.log("This Is The archive status before archive: ",data);
   if(data!= null){
-    console.log("This is for note.service id : ",id);
+    // console.log("This is for note.service id : ",id);
     const updateData = await Note.findOneAndUpdate({ _id : id }, {isArchived : true}, {new : true});
     // console.log("This Is The archive status after archive: ",updateData);
     return updateData ;
@@ -82,3 +82,19 @@ export const noteArchive= async(id)=>{
 };
 
 // Is their any requirment to handel error for invalid ID ????????
+
+// Trash note #############
+
+export const trash= async(id)=>{
+  const data = await Note.findById(id);
+  // console.log("This Is The isDeleted status before move to trash: ",data);
+  if(data!= null){
+    // console.log("This is for note.service id : ",id);
+    const updateData = await Note.findOneAndUpdate({ _id : id }, {isDeleted : true}, {new : true});
+    // console.log("This Is The IsDeleted status after move to trash: ",updateData);
+    return updateData ;
+  }else
+  {
+    throw new Error("Invalid ID");
+  }
+};

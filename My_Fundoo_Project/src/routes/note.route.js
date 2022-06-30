@@ -30,5 +30,9 @@ noteRouter.delete("/:_id",userAuth,noteController.deleteNote)
 // Archive Note ##############
 
 noteRouter.put("/archive/:_id",userAuth,noteController.archive,)
-export default noteRouter;
 
+// Trash Note ##############
+
+noteRouter.put("/trash/:_id",userAuth,noteController.trash,)
+
+export default noteRouter;
