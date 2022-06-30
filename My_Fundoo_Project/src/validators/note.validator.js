@@ -8,6 +8,7 @@ export const newNoteValidator = (req, res, next) => {
     Title: Joi.string().required(),
     Descreption: Joi.string().required(),
     color: Joi.string()
+    
   });
   const { error, value } = schema.validate(req.body);
   if (error) {

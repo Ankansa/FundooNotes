@@ -1,4 +1,3 @@
-import { any } from '@hapi/joi';
 import { Schema, model } from 'mongoose';
 
 const userSchema = new Schema(

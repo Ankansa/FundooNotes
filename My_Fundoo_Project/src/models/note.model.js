@@ -1,4 +1,3 @@
-import { any } from '@hapi/joi';
 import { Schema, model } from 'mongoose';
 
 
@@ -16,7 +15,7 @@ Descreption: {
 },
 color: {
     type: String,
-}
+},
 
 // isArchived: {
 //     type: Boolean,
@@ -24,9 +23,9 @@ color: {
 // isDeleted: {
 //     type: Boolean,
 // },
-// UserID: {
-//     type: String
-// }
+UserID: {
+    type: String
+}
 },
 {
     timestamps:true

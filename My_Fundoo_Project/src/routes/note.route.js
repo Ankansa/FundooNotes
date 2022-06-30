@@ -9,7 +9,7 @@ const noteRouter = express.Router();
 
 //route to create a new note
 
-noteRouter.post('/',userAuth,newNoteValidator,noteController.newNote );
+noteRouter.post('/',newNoteValidator,userAuth,noteController.newNote );
 
 //route to get all note
 

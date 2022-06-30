@@ -66,7 +66,7 @@ export const login = async (body) => {
     const comparePass =await bcrypt.compare(body.password, result.password);
     if(comparePass){
 
-      var token = jwt.sign({ email: result.mailid, id:result._id}, process.env.SECRATEKEY);
+      var token = jwt.sign({ mailid: result.mailid, id:result._id}, process.env.SECRATEKEY);
       return token
     
     }else{

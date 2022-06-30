@@ -7,6 +7,7 @@ import * as NoteService from '../services/note.service';
 export const newNote = async (req, res, next) => {
       try {
         const data = await NoteService.newnote(req.body);
+        console.log("This is the body on controller : ", req.body);
         res.status(HttpStatus.CREATED).json({
           code: HttpStatus.CREATED,
           data: data,
