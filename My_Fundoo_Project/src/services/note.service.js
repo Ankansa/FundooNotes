@@ -64,12 +64,16 @@ export const deleteNote = async (id) => {
 export const noteArchive= async(id)=>{
   const data = await Note.findById(id);
   // console.log("This Is The archive status before archive: ",data);
-  if(data!= null){
+  if(data!= null && data.isArchived == false ){
     // console.log("This is for note.service id : ",id);
     const updateData = await Note.findOneAndUpdate({ _id : id }, {isArchived : true}, {new : true});
     // console.log("This Is The archive status after archive: ",updateData);
     return updateData ;
-  }else
+  }else if (data!= null && data.isArchived==true){
+    const updateData = await Note.findOneAndUpdate({ _id : id }, {isArchived : false}, {new : true});
+    return updateData ;
+  }
+  else
   {
     throw new Error("Invalid ID");
   }
