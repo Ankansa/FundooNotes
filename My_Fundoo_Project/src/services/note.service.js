@@ -33,17 +33,24 @@ export const getOneNote = async (id, AuthID) => {
 
 //Update note ######################
 
-// export const UpdateNote = async (_id, body, AuthID) => {
-//   const data = await Note.findById(_id);
-//     if(data.UserID==AuthID)
-//     {
-//       const updateData= Note.updateMany({_id:_id},{Title : body.Title}, {Descreption : body.Descreption})
-//       return updateData;
-//     }
-//     else{
-//       throw new Error("Authentication Faild");
-//   }
-//   };
+export const UpdateNote = async (_id, body, AuthID) => {
+  const data = await Note.findById(_id);
+    if(data.UserID==AuthID)
+    {const updateData = await Note.findByIdAndUpdate(
+      {
+        _id
+      },
+      body,
+      {
+        new: true
+      }
+    );
+    return updateData;
+    }
+    else {
+        throw new Error("Authentication Faild");
+    }
+    };
 
 
 // Delete Note #############
