@@ -13,23 +13,23 @@ export const newnote = async (body) => {
 
 //get all note
 
-export const getAllNotes = async (UserID) => {
-  const data = await Note.find({UserID : UserID});
+export const getAllNotes = async (AuthID) => {
+  const data = await Note.find({UserID : AuthID});
   return data;
 };
 
 //get one note by id
 
-export const getOneNote = async (id) => {
+export const getOneNote = async (id, AuthID) => {
   const data = await Note.findById(id);
-  if(data != null){
-    return data;
+    if(data.UserID==AuthID)
+    {
+      return data;
+    }
+    else{
+      throw new Error("Authentication Faild");
   }
-  else{
-    throw new Error("Invalid ID");
-  }
-  
-};
+  };
 
 //Update note ######################
 
@@ -56,7 +56,7 @@ export const UpdateNote = async (_id, body) => {
 
 export const deleteNote = async (id) => {
   const data = await Note.findById(id);
-  if(data!=null){
+  if(data!=null,await Note.find({UserID : UserID})){
   await Note.findByIdAndDelete(id);
   return " " ;
   }else
@@ -81,7 +81,7 @@ export const noteArchive= async(id)=>{
   }
 };
 
-// Is their any requirment to handel error for invalid ID ????????
+// Is their any requirment to handel error for invalid ID ????????????????????????????????/
 
 // Trash note #############
 
@@ -98,3 +98,8 @@ export const trash= async(id)=>{
     throw new Error("Invalid ID");
   }
 };
+
+// Marge trash and delete with if condition..............
+// Normaly when ID is available that time it work otherwish it will show error "Invalid ID".
+// If ID is available(True) and isDeleted is true then it will execute the delete operation
+// else ID is available(True) and isDeleted is false then it will execute the trash operation

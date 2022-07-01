@@ -40,7 +40,7 @@ export const getAllNote = async ( req, res, next) =>{
 
 export const getOneNote = async ( req, res, next) =>{
   try {
-        const data = await NoteService.getOneNote(req.params._id);
+        const data = await NoteService.getOneNote(req.params._id, req.body.UserID);
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,

@@ -74,3 +74,35 @@ info: ::1 - - [30/Jun/2022:21:49:41 +0000] "POST /api/v1/note HTTP/1.1" 400 40 "
 
 info: ::1 - - [30/Jun/2022:21:50:52 +0000] "POST /api/v1/note HTTP/1.1" 400 40 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [30/Jun/2022:21:52:30 +0000] "POST /api/v1/note HTTP/1.1" 201 287 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:53:05 +0000] "POST /api/v1/note HTTP/1.1" 201 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:53:21 +0000] "POST /api/v1/note HTTP/1.1" 201 287 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:53:58 +0000] "POST /api/v1/note HTTP/1.1" 201 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:55:13 +0000] "POST /api/v1/note HTTP/1.1" 201 299 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:56:39 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:25:05 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 400 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:25:39 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:30:24 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:43:57 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:44:23 +0000] "PUT /api/v1/note/trash/62be1b5140d5ac0854f520cb HTTP/1.1" 200 292 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:46:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:47:10 +0000] "GET /api/v1/note/62be1b1d40d5ac0854f520c7 HTTP/1.1" 200 287 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:47:30 +0000] "GET /api/v1/note/62be1b1d40d5ac0854f520c7 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:49:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:49:58 +0000] "GET /api/v1/note/62be1b1d40d5ac0854f520c7 HTTP/1.1" 200 287 "-" "PostmanRuntime/7.29.0"
+
