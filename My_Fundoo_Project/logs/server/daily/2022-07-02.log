@@ -124,3 +124,64 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T2
 info: Connected to the database. {"timestamp":"2022-07-01T20:48:38.560Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:50.226Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:58.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:49:05.877Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:49:08.938Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:527:28)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1344:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//archive/62bf5f0d4b256231942a1ad5 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T20:58:27.998Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:527:28)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1344:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/archive/62bf5f0d4b256231942a1ad5 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T20:58:58.823Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:05:36.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:05:45.656Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:05:48.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:10:20.950Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:10:23.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:10:46.248Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:10:49.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:11:29.788Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:11:33.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:12:03.422Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:12:06.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:13:28.205Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:13:31.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:13:38.515Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:13:41.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:13:57.449Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:14:00.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:14:06.181Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:14:09.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:14:17.560Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:14:20.444Z"}

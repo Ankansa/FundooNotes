@@ -27,7 +27,7 @@ export const getOneNote = async (id, AuthID) => {
       return data;
     }
     else{
-      throw new Error("Authentication Faild");
+      throw new Error("Authentication Failed");
   }
   };
 
@@ -48,7 +48,7 @@ export const UpdateNote = async (_id, body, AuthID) => {
     return updateData;
     }
     else {
-        throw new Error("Authentication Faild");
+        throw new Error("Authentication Failed");
     }
     };
 
@@ -61,7 +61,7 @@ export const deleteNote = async (id,AuthID) => {
   await Note.findByIdAndDelete(id);
   return " " ;
   }else if(data!=null && data.UserID!=AuthID){
-    throw new Error("Authentication Faild");
+    throw new Error("Authentication Failed");
   }
   else
   {
@@ -71,17 +71,19 @@ export const deleteNote = async (id,AuthID) => {
 
 // Archive note #############
 
-export const noteArchive= async(id)=>{
+export const noteArchive= async(id,AuthID)=>{
   const data = await Note.findById(id);
   // console.log("This Is The archive status before archive: ",data);
-  if(data!= null && data.isArchived == false ){
+  if(data!= null && data.isArchived == false && data.UserID == AuthID ){
     // console.log("This is for note.service id : ",id);
     const updateData = await Note.findOneAndUpdate({ _id : id }, {isArchived : true}, {new : true});
     // console.log("This Is The archive status after archive: ",updateData);
     return updateData ;
-  }else if (data!= null && data.isArchived==true){
+  }else if (data!= null && data.isArchived==true && data.UserID == AuthID){
     const updateData = await Note.findOneAndUpdate({ _id : id }, {isArchived : false}, {new : true});
     return updateData ;
+  }else if ( data!=null && data.UserID != AuthID){
+    throw new Error("Authentication Failed");
   }
   else
   {
