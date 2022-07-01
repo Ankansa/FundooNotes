@@ -99,3 +99,28 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2022-07-01T20:25:39.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:26:12.054Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:26:15.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:39:29.304Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:39:32.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:41:04.127Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:41:07.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:41:15.691Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:41:18.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:42:01.565Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:42:04.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:44:53.304Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:44:56.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:45:15.674Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:45:18.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:46:42.829Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:46:45.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:01.647Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:48:05.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:11.434Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:48:14.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:28.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:35.773Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:48:38.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:50.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:58.804Z"}

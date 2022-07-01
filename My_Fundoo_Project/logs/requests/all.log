@@ -1493,3 +1493,17 @@ info: ::1 - - [01/Jul/2022:20:24:15 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4c
 
 info: ::1 - - [01/Jul/2022:20:25:39 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [01/Jul/2022:20:26:26 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:26:33 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:33:37 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:44:05 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:45:00 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:45:37 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:46:01 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+

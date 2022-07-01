@@ -55,12 +55,15 @@ export const UpdateNote = async (_id, body, AuthID) => {
 
 // Delete Note #############
 
-export const deleteNote = async (id) => {
+export const deleteNote = async (id,AuthID) => {
   const data = await Note.findById(id);
-  if(data!=null,await Note.find({UserID : UserID})){
+  if(data!=null && data.UserID==AuthID){
   await Note.findByIdAndDelete(id);
   return " " ;
-  }else
+  }else if(data!=null && data.UserID!=AuthID){
+    throw new Error("Authentication Faild");
+  }
+  else
   {
     throw new Error("Invalid ID");
   }

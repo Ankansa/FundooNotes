@@ -74,7 +74,7 @@ export const UpdateNote = async ( req, res, next) =>{
 
 export const deleteNote = async (req, res, next) =>{
   try {
-    await NoteService.deleteNote(req.params._id);
+    await NoteService.deleteNote(req.params._id, req.body.UserID);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       message: 'Note deleted successfully'
