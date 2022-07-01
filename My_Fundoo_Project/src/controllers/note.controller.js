@@ -116,7 +116,7 @@ export const archive = async(req, res,next) =>{
 
 export const trash = async(req, res,next) =>{
   try {
-    const data = await NoteService.trash(req.params._id);
+    const data = await NoteService.trash(req.params._id,req.body.UserID);
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,

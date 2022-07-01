@@ -95,18 +95,20 @@ export const noteArchive= async(id,AuthID)=>{
 
 // Trash note #############
 
-export const trash= async(id)=>{
+export const trash= async(id,AuthID)=>{
   const data = await Note.findById(id);
   // console.log("This Is The isDeleted status before move to trash: ",data);
-  if(data!= null && data.isDeleted==false){
+  if(data!= null && data.isDeleted==false && data.UserID==AuthID){
     // console.log("This is for note.service id : ",id);
     const updateData = await Note.findOneAndUpdate({ _id : id }, {isDeleted : true}, {new : true});
     // console.log("This Is The IsDeleted status after move to trash: ",updateData);
     return updateData ;
-  }else if (data!= null && data.isDeleted==true) {
+  }else if (data!= null && data.isDeleted==true && data.UserID==AuthID) {
     const updateData = await Note.findOneAndUpdate({ _id : id }, {isDeleted : false}, {new : true});
     return updateData ;
-  } 
+  } else if (data!= null && data.UserID!=AuthID){
+    throw new Error("Authentication Failed");
+  }
   else
   {
     throw new Error("Invalid ID");
