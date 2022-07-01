@@ -28,7 +28,7 @@ isDeleted: {
     type: Boolean,
 },
 UserID: {
-    type: String            //No need to mention in body. It will auto generate while user do login by the JWT
+    type: String,            //No need to mention in body. It will auto generate while user do login by the JWT
 }                           //It Will be the same as mail id
 },
 {

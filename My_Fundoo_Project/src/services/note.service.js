@@ -33,24 +33,18 @@ export const getOneNote = async (id, AuthID) => {
 
 //Update note ######################
 
-export const UpdateNote = async (_id, body) => {
-  const data = await Note.findByIdAndUpdate(
-    {
-      _id
-    },
-    body, 
-    {
-      new: true
-    }
-    );
-    if(data != null){
-      return data;
-    }
-    else{
-      throw new Error("Invalid ID");
-    }
-  
-};
+// export const UpdateNote = async (_id, body, AuthID) => {
+//   const data = await Note.findById(_id);
+//     if(data.UserID==AuthID)
+//     {
+//       const updateData= Note.updateMany({_id:_id},{Title : body.Title}, {Descreption : body.Descreption})
+//       return updateData;
+//     }
+//     else{
+//       throw new Error("Authentication Faild");
+//   }
+//   };
+
 
 // Delete Note #############
 
@@ -88,12 +82,16 @@ export const noteArchive= async(id)=>{
 export const trash= async(id)=>{
   const data = await Note.findById(id);
   // console.log("This Is The isDeleted status before move to trash: ",data);
-  if(data!= null){
+  if(data!= null && data.isDeleted==false){
     // console.log("This is for note.service id : ",id);
     const updateData = await Note.findOneAndUpdate({ _id : id }, {isDeleted : true}, {new : true});
     // console.log("This Is The IsDeleted status after move to trash: ",updateData);
     return updateData ;
-  }else
+  }else if (data!= null && data.isDeleted==true) {
+    const updateData = await Note.findOneAndUpdate({ _id : id }, {isDeleted : false}, {new : true});
+    return updateData ;
+  } 
+  else
   {
     throw new Error("Invalid ID");
   }
