@@ -131,3 +131,22 @@ export const login = async (req, res, next) => {
 };
 
 
+// Forget password #################
+
+export const forgetPass =async(req,res,next)=>{
+  try{
+    const data = await UserService.forgetPass(req.body.mailid);
+    // console.log("This is from user.controller......  check input mail id : ", req.body.mailid);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+          data: data,
+          message: 'Reset mail sent to registerd mailid'
+    });
+  }
+  catch(error){
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    }); 
+  }
+};

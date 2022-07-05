@@ -2,18 +2,18 @@ import { Schema, model } from 'mongoose';
 
 const userSchema = new Schema(
   {
-    fname: {
+    First_name: {
       type: String,
-      // required: true
+      required: true
     },
-    sname: {
+    Second_name: {
       type: String,
       required: true
     },
     mailid: {
       type: String,
       required: true,
-      unique: (true)
+      unique: true
       
     },
     password: {

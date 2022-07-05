@@ -35,4 +35,7 @@ noteRouter.put("/archive/:_id",userAuth,noteController.archive)
 
 noteRouter.put("/trash/:_id",userAuth,noteController.trash)
 
+
+
+
 export default noteRouter;

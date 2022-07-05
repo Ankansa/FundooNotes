@@ -22,7 +22,7 @@ export const userAuth = async (req, res, next) => {
     const user = await jwt.verify(bearerToken, process.env.SECRATEKEY);
     // console.log("This is the body part from auth",req.body);
     req.body.UserID = user.mailid;
-    console.log("This is the body part from auth",req.body)
+    // console.log("This is the body part from auth",req.body)
     next();
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({

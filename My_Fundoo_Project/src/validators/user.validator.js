@@ -3,8 +3,8 @@ import HttpStatus from 'http-status-codes';
 
 export const newUserValidator = (req, res, next) => {
   const schema = Joi.object({
-    fname: Joi.string().min(2).required(),
-    sname: Joi.string().min(2).required(),
+    First_name: Joi.string().min(2).required(),
+    Second_name: Joi.string().min(2).required(),
     mailid: Joi.string().email().trim(true).required(),
     password: Joi.string().min(3).max(15).required(),
     // confirmPassword:Joi.string().required().valid(Joi.ref('password'))

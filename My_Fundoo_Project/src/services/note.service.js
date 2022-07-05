@@ -119,3 +119,9 @@ export const trash= async(id,AuthID)=>{
 // Normaly when ID is available that time it work otherwish it will show error "Invalid ID".
 // If ID is available(True) and isDeleted is true then it will execute the delete operation
 // else ID is available(True) and isDeleted is false then it will execute the trash operation
+
+
+
+
+
+
