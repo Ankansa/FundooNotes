@@ -21,8 +21,8 @@ export const getAllNotes = async (AuthID) => {
 //get one note by id
 
 export const getOneNote = async (id, AuthID) => {
-  const data = await Note.findById(id);
-    if(data.UserID==AuthID)
+  const data = await Note.findOne({_id:id, UserID:AuthID} );
+    if(data)
     {
       return data;
     }
@@ -33,39 +33,28 @@ export const getOneNote = async (id, AuthID) => {
 
 //Update note ######################
 
-export const UpdateNote = async (_id, body, AuthID) => {
-  const data = await Note.findById(_id);
-    if(data.UserID==AuthID)
-    {const updateData = await Note.findByIdAndUpdate(
-      {
-        _id
-      },
-      body,
-      {
-        new: true
-      }
-    );
-    return updateData;
+export const UpdateNote = async (paramsId, body, AuthID) => {
+  const data = await await Note.findOneAndUpdate({_id : paramsId, UserID : AuthID},body,{new: true});
+    if(data){
+    return data;
     }
     else {
         throw new Error("Authentication Failed");
     }
     };
+  
 
 
 // Delete Note #############
 
 export const deleteNote = async (id,AuthID) => {
-  const data = await Note.findById(id);
-  if(data!=null && data.UserID==AuthID){
-  await Note.findByIdAndDelete(id);
-  return " " ;
-  }else if(data!=null && data.UserID!=AuthID){
-    throw new Error("Authentication Failed");
-  }
+  const data = await Note.findOneAndDelete({_id:id,UserID:AuthID});
+  if(data){
+  return " " 
+}
   else
   {
-    throw new Error("Invalid ID");
+    throw new Error("Authentication Failed");
   }
 };
 
@@ -82,12 +71,10 @@ export const noteArchive= async(id,AuthID)=>{
   }else if (data!= null && data.isArchived==true && data.UserID == AuthID){
     const updateData = await Note.findOneAndUpdate({ _id : id }, {isArchived : false}, {new : true});
     return updateData ;
-  }else if ( data!=null && data.UserID != AuthID){
-    throw new Error("Authentication Failed");
   }
   else
   {
-    throw new Error("Invalid ID");
+    throw new Error("Authentication Failed");
   }
 };
 
@@ -106,12 +93,10 @@ export const trash= async(id,AuthID)=>{
   }else if (data!= null && data.isDeleted==true && data.UserID==AuthID) {
     const updateData = await Note.findOneAndUpdate({ _id : id }, {isDeleted : false}, {new : true});
     return updateData ;
-  } else if (data!= null && data.UserID!=AuthID){
-    throw new Error("Authentication Failed");
-  }
+  } 
   else
   {
-    throw new Error("Invalid ID");
+    throw new Error("Authentication Failed");
   }
 };
 

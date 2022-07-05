@@ -2800,3 +2800,95 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2022-07-05T19:15:02.264Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 35
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:527:28)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1344:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T19:48:03.221Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 35
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:527:28)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1344:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T19:48:37.562Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Failed
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:60:15)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62c285647bf4762efcc77ee8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-05T20:18:35.383Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Failed
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:60:15)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62c285647bf4762efcc77ee8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-05T20:18:42.891Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Failedaaaa
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:60:15)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62c285647bf4762efcc77ee8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-05T20:19:51.791Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Failed
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:42:15)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62c285647bf4762efcc77ee8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-05T20:46:42.272Z"}

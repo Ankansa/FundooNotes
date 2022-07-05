@@ -4651,3 +4651,208 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T1
 info: Connected to the database. {"timestamp":"2022-07-05T19:21:02.272Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T19:22:04.566Z"}
 info: Connected to the database. {"timestamp":"2022-07-05T19:22:08.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T19:31:24.244Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:31:27.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T19:33:41.086Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:33:44.354Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T19:38:43.878Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:38:47.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T19:43:24.895Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:43:28.270Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T19:45:42.281Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:45:45.401Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 35
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:527:28)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1344:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T19:48:03.221Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 35
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:527:28)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1344:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T19:48:37.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T19:55:57.415Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:56:00.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T19:59:10.664Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:59:13.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:00:47.939Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:00:50.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:01:05.747Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:01:08.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:03:37.829Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:03:41.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:07:16.723Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:07:20.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:13:34.148Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:13:39.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:14:54.025Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:14:57.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:15:51.629Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:15:54.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:17:17.408Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:17:20.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:17:37.164Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:17:40.331Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Failed
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:60:15)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62c285647bf4762efcc77ee8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-05T20:18:35.383Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Failed
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:60:15)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62c285647bf4762efcc77ee8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-05T20:18:42.891Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:19:45.042Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:19:48.346Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Failedaaaa
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:60:15)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62c285647bf4762efcc77ee8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-05T20:19:51.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:20:33.560Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:20:36.641Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:22:37.017Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:22:40.302Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Failed
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:42:15)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62c285647bf4762efcc77ee8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-05T20:46:42.272Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:47:49.238Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:47:53.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:49:50.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:50:00.884Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:50:03.897Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:51:04.580Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:51:07.907Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:53:34.671Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:53:39.878Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:56:19.799Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:56:24.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:57:28.118Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:57:33.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:58:34.014Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:58:37.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:58:53.653Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:58:56.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T20:59:45.734Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T20:59:49.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:00:12.634Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:00:17.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:01:24.458Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:01:29.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:06:48.163Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:06:53.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:09:53.342Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:09:58.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:10:33.978Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:10:37.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:10:52.761Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:10:55.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:11:35.824Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:11:38.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:12:01.532Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:12:04.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:12:48.631Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:12:51.756Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:13:18.852Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:13:25.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:13:37.322Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:13:41.141Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:13:52.852Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:13:56.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:14:34.659Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:14:38.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:14:50.175Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:14:54.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:17:15.450Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:17:19.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:19:46.533Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:19:49.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:20:37.552Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:20:40.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:24:01.788Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:24:05.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:29:12.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:29:22.602Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:29:26.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:30:04.676Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:30:07.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:31:06.297Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:31:09.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:35:20.240Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:35:23.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:50:59.693Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:51:02.878Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:58:54.809Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:58:57.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T21:59:12.147Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T21:59:15.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T22:00:36.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T22:01:00.079Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T22:01:03.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T22:04:27.061Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T22:04:30.011Z"}

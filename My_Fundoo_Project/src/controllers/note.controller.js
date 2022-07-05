@@ -61,7 +61,7 @@ export const getOneNote = async ( req, res, next) =>{
 export const UpdateNote = async ( req, res, next) =>{
   try {
         const data = await NoteService.UpdateNote(req.params._id, req.body,req.body.UserID);
-        console.log("From note control : ", req.body);
+        // console.log("From note control : ", req.body);
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,
