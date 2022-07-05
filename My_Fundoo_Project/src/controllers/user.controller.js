@@ -150,3 +150,18 @@ export const forgetPass =async(req,res,next)=>{
     }); 
   }
 };
+
+// Reset Password #########################
+
+export const resetPass =async(req,res,next)=>{
+  try{
+    const data = await UserService.resetPass(req.params._token,req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+          data: data,
+          message: 'Password Updated Succesfully'
+    });
+  }catch(error){
+    next(error);
+      }
+    };

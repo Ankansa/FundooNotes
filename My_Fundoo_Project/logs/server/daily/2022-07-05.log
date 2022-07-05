@@ -83,3 +83,36 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T1
 info: Connected to the database. {"timestamp":"2022-07-05T14:23:57.654Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T14:24:49.795Z"}
 info: Connected to the database. {"timestamp":"2022-07-05T14:24:52.878Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T14:48:07.279Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T14:48:11.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T15:42:41.389Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:42:44.481Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:114:31)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPass (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:113:23)
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:158:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24) 
+    url - /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDMyNTA5fQ.jQc54aYI0oRMX2-iy1D0bYDVd4V-33icDj4eYyCk0do 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-05T15:45:23.963Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T15:46:06.063Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:46:09.526Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T15:56:24.985Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:56:27.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-05T15:57:11.036Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:57:13.905Z"}

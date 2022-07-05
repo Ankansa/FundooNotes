@@ -26,12 +26,16 @@ const router = express.Router();
 router.post('/', newUserValidator, userController.newUser);
 
 
-//route to login a user
+//route to login a user ###################
 router.post('/login',userController.login);
 
 // Forget password #################
 
 router.post('/forgetPass',userController.forgetPass );
+
+//Reset Password ##################
+
+router.put('/:_token',userController.resetPass );
 
 
 export default router;

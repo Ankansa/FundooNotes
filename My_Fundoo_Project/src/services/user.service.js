@@ -107,3 +107,14 @@ export const forgetPass = async (inputMailID)=>{
     throw new Error("Incorrect Mail ID");
   }
 };
+
+// Reset Password #############
+
+export const resetPass = async (_token,body)=>{
+  const tokenData = await jwt.verify(_token, process.env.RESETPASSWORDKEY);
+  const salt = 10
+  const hashpassword = await bcrypt.hash(body.password,salt)
+  body.password= hashpassword
+  const updateData= User.findOneAndUpdate({mailid : tokenData.mailid },body,{new : true})
+  return updateData;
+};
