@@ -1,6 +1,5 @@
 import HttpStatus from 'http-status-codes';
 import * as NoteService from '../services/note.service';
-// import { user } from '../middlewares/auth.middleware';
 
 
 

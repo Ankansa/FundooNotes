@@ -2,8 +2,6 @@ import Note from '../models/note.model';
 
 
 
-
-
 //create new note
 
 export const newnote = async (body) => {
@@ -78,7 +76,6 @@ export const noteArchive= async(id,AuthID)=>{
   }
 };
 
-// Is their any requirment to handel error for invalid ID ????????????????????????????????/
 
 // Trash note #############
 
@@ -99,13 +96,6 @@ export const trash= async(id,AuthID)=>{
     throw new Error("Authentication Failed");
   }
 };
-
-// Marge trash and delete with if condition..............
-// Normaly when ID is available that time it work otherwish it will show error "Invalid ID".
-// If ID is available(True) and isDeleted is true then it will execute the delete operation
-// else ID is available(True) and isDeleted is false then it will execute the trash operation
-
-
 
 
 

@@ -31,3 +31,27 @@ export const userAuth = async (req, res, next) => {
     });
   }
 };
+
+
+// Reset password auth #############
+
+export const restPassAuth = async (req,res,next) =>{
+  try {    
+    const resetToken = req.params._token;
+    console.log("Token is  : ", resetToken);
+    if (!resetToken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is required'
+      };
+    const tokenData = jwt.verify(resetToken, process.env.RESETPASSWORDKEY);
+    req.body.mailid = tokenData.mailid;
+
+    next();
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
