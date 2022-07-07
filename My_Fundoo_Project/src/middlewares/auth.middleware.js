@@ -35,7 +35,7 @@ export const userAuth = async (req, res, next) => {
 
 // Reset password auth #############
 
-export const restPassAuth = async (req,res,next) =>{
+export const PassAuth = async (req,res,next) =>{
   try {    
     const resetToken = req.params._token;
     console.log("Token is  : ", resetToken);

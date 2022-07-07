@@ -8,12 +8,16 @@ import { sendMail } from '../utils/mail';
 // Registration##############
 
 export const newUser = async (body) => {
-  
+  const mailCheck = await User.findOne({mailid:body.mailid})
+  if(mailCheck){
+    throw new Error("Mail ID already Exist")
+  }else{
   const saltRounds= 10
   const hashpassword= await bcrypt.hash(body.password, saltRounds)
   body.password = hashpassword
   const data = await User.create(body);
   return data;
+}
 };
 
 
