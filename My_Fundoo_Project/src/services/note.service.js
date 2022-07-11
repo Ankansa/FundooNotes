@@ -33,6 +33,7 @@ export const getOneNote = async (id, AuthID) => {
 
 export const UpdateNote = async (paramsId, body, AuthID) => {
   const data = await Note.findOneAndUpdate({_id : paramsId, UserID : AuthID},body,{new: true});
+  console.log("Note.service note data : ", data);
     if(data){
     return data;
     }
@@ -59,45 +60,55 @@ export const deleteNote = async (id,AuthID) => {
 // Archive note #############
 
 export const noteArchive= async(id,AuthID)=>{
-  // const data = await Note.findById(id);
-  // console.log("This Is The archive status before archive: ",data);
-  // if(data!= null && data.isArchived == false && data.UserID == AuthID ){
-    // console.log("This is for note.service id : ",id);
-    const updateData = await Note.findOneAndUpdate({ _id : id , UserID : AuthID}, {isArchived : true}, {new : true});
+
+    const data = await Note.findOneAndUpdate({ _id : id , UserID : AuthID}, {isArchived : true}, {new : true});
+    console.log("Note.service archive date data : ", data);
+  if(data){ 
+    return data ;
+  }
+  else
+  {
+    throw new Error("Authentication Failed");
+  }
+};
+
+// Unarchive note #############
+
+export const noteUnarchive= async(id,AuthID)=>{
+
+    const updateData = await Note.findOneAndUpdate({ _id : id , UserID : AuthID}, {isArchived : false}, {new : true});
   if(updateData){ // console.log("This Is The archive status after archive: ",updateData);
     return updateData ;
   }
-  // else if (data!= null && data.isArchived==true && data.UserID == AuthID){
-  //   const updateData = await Note.findOneAndUpdate({ _id : id }, {isArchived : false}, {new : true});
-  //   return updateData ;
-  // }
   else
   {
     throw new Error("Authentication Failed");
   }
 };
 
+// Move to Trash note #############
 
-// Trash note #############
+export const movetrash= async(id,AuthID)=>{
+    const data = await Note.findOneAndUpdate({ _id : id }, {isDeleted : true}, {new : true});
+    if(data){
+      return data ;
+    }else
+    {
+      throw new Error("Authentication Failed");
+    }
+  };
+  
+// Remove Trash note #############
 
-export const trash= async(id,AuthID)=>{
-  const data = await Note.findById(id);
-  // console.log("This Is The isDeleted status before move to trash: ",data);
-  if(data!= null && data.isDeleted==false && data.UserID==AuthID){
-    // console.log("This is for note.service id : ",id);
-    const updateData = await Note.findOneAndUpdate({ _id : id }, {isDeleted : true}, {new : true});
-    // console.log("This Is The IsDeleted status after move to trash: ",updateData);
-    return updateData ;
-  }else if (data!= null && data.isDeleted==true && data.UserID==AuthID) {
-    const updateData = await Note.findOneAndUpdate({ _id : id }, {isDeleted : false}, {new : true});
-    return updateData ;
-  } 
-  else
+export const removetrash= async(id,AuthID)=>{
+  const data = await Note.findOneAndUpdate({ _id : id }, {isDeleted : false}, {new : true});
+  if(data){
+    return data ;
+  }else
   {
     throw new Error("Authentication Failed");
   }
 };
-
 
 
 
