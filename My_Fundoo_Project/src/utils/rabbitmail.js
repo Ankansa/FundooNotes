@@ -21,7 +21,7 @@ oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 export async function rabbitmail(UserMail) {
   try {
     const accessToken = await oAuth2Client.getAccessToken();
-    console.log("Inside rabbit mail : ",UserMail);
+    // console.log("Inside rabbit mail : ",UserMail);
  
     const transport = nodemailer.createTransport({
       service: 'gmail',
@@ -40,7 +40,7 @@ export async function rabbitmail(UserMail) {
       to: UserMail,
       subject: 'Hello from gmail using API',
       text: 'This is the testing gmail email using API',
-      html: '<h1>This is the testing gmail email using API Check the rabbitmq mail </h1>',
+      html: '<h1>Your Registration Is Sucessfull</h1>',
     };
     const result = await transport.sendMail(mailOptions);
     return result;

@@ -1,6 +1,5 @@
 var amqp = require('amqplib/callback_api');
 
-import { sendMail } from './mail';
 import { rabbitmail } from './rabbitmail';
 
 var userMailId;
@@ -21,20 +20,17 @@ function producer(data) {
         var queue = 'rabq';
         var msg =  JSON.stringify(data) ;
         userMailId=data.mailid;
-        console.log("Inside rabbitmq : ", userMailId);
+        // console.log("Inside rabbitmq : ", userMailId);
         channel.assertQueue(queue, {
             durable: false
         });
         channel.sendToQueue(queue, Buffer.from(msg));
 
-        console.log(" inside rabbitmq:   :::: The sent massae is  %s", msg);
+        // console.log(" inside rabbitmq:   :::: The sent massae is  %s", msg);
     });
-    setTimeout(function() {
-        connection.close();
-        // process.exit(0);
-    }, 1000);
 });
-
+};
+function reciver(){
 // User ################################################
 amqp.connect('amqp://localhost', function(error, connection) {
     if (error) {
@@ -51,11 +47,11 @@ amqp.connect('amqp://localhost', function(error, connection) {
             durable: false
         });
 
-        console.log(`The queue (${queue}) is reay for operation`);
+        // console.log(`The queue (${queue}) is reay for operation`);
 
         channel.consume(queue, function(msg) {
             let messages  = JSON.parse(msg.content) 
-            console.log("Received data from registration :  %s",messages );
+            // console.log("Inside rabitmq ......Received data from registration :  %s",messages );
             rabbitmail(userMailId);
         }, 
         {
@@ -66,5 +62,6 @@ amqp.connect('amqp://localhost', function(error, connection) {
 };
 
 
+reciver();
 
 export {producer};

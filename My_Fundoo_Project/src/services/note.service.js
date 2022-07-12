@@ -1,18 +1,25 @@
 import Note from '../models/note.model';
-
+import { client } from '../config/redis';
 
 
 //create new note
 
 export const newnote = async (body) => {
   const data = await Note.create(body);
-  return data;
+  if(data){
+    await client.del("notes");
+    return data;
+  }
+  
 };
 
 //get all note
 
 export const getAllNotes = async (AuthID) => {
   const data = await Note.find({UserID : AuthID});
+  if (data){
+    await client.set("note",JSON.stringify(data));
+  }
   return data;
 };
 
@@ -33,7 +40,7 @@ export const getOneNote = async (id, AuthID) => {
 
 export const UpdateNote = async (paramsId, body, AuthID) => {
   const data = await Note.findOneAndUpdate({_id : paramsId, UserID : AuthID},body,{new: true});
-  console.log("Note.service note data : ", data);
+  // console.log("Note.service note data : ", data);
     if(data){
     return data;
     }
@@ -62,7 +69,7 @@ export const deleteNote = async (id,AuthID) => {
 export const noteArchive= async(id,AuthID)=>{
 
     const data = await Note.findOneAndUpdate({ _id : id , UserID : AuthID}, {isArchived : true}, {new : true});
-    console.log("Note.service archive date data : ", data);
+    // console.log("Note.service archive date data : ", data);
   if(data){ 
     return data ;
   }
@@ -77,7 +84,8 @@ export const noteArchive= async(id,AuthID)=>{
 export const noteUnarchive= async(id,AuthID)=>{
 
     const updateData = await Note.findOneAndUpdate({ _id : id , UserID : AuthID}, {isArchived : false}, {new : true});
-  if(updateData){ // console.log("This Is The archive status after archive: ",updateData);
+  if(updateData){ 
+    // console.log("This Is The archive status after archive: ",updateData);
     return updateData ;
   }
   else
