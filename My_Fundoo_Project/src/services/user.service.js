@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import { sendMail } from '../utils/mail';
 
 // //get all users
 // export const getAllUsers = async () => {
@@ -93,4 +94,16 @@ export const login = async (body) => {
 
 };
 
+// Forget password #################
 
+
+export const forgetPass = async (inputMailID)=>{
+  const data = await User.findOne({mailid:inputMailID});
+  // console.log("This is from user.services......  check input mail id : ", inputMailID);
+  if(data){
+    var resetToken= jwt.sign({ mailid: data.mailid, id:data._id}, process.env.RESETPASSWORDKEY);
+    await sendMail(data.mailid,resetToken);
+  }else{
+    throw new Error("Incorrect Mail ID");
+  }
+};

@@ -23,11 +23,15 @@ const router = express.Router();
 //User Registration#####################################
 
 //route to create a new user
-router.post('/newuser', newUserValidator, userController.newUser);
+router.post('/', newUserValidator, userController.newUser);
 
 
 //route to login a user
 router.post('/login',userController.login);
+
+// Forget password #################
+
+router.post('/forgetPass',userController.forgetPass );
 
 
 export default router;

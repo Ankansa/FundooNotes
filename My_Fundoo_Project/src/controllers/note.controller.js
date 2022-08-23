@@ -31,10 +31,12 @@ export const getAllNote = async ( req, res, next) =>{
           message: 'All notes fetched successfully'
         });
       } catch (error) {
-        next(error);
+        res.status(HttpStatus.BAD_REQUEST).json({
+          code: HttpStatus.BAD_REQUEST,
+          message: `${error}`
+        });
       }
     };
-
 
     // get one Note##############
 
@@ -129,3 +131,4 @@ export const trash = async(req, res,next) =>{
     }); 
   }
 };
+
