@@ -13,7 +13,11 @@ export const newUser = async (req, res, next) => {
       message: 'User Registration Is Successfull'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+
   }
 };
 

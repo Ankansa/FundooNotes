@@ -98,7 +98,7 @@
         }
       },
       "/users/{_token}": {
-        "put": {
+        "post": {
           "tags": ["User"],
           "summary": "reset password for User",
           "produces": [],
