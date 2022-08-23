@@ -10,7 +10,7 @@ import jwt from 'jsonwebtoken';
  * @param {Function} next
  */
 export const userAuth = async (req, res, next) => {
-  try {
+  try {    
     let bearerToken = req.header('Authorization');
     if (!bearerToken)
       throw {
@@ -19,11 +19,15 @@ export const userAuth = async (req, res, next) => {
       };
     bearerToken = bearerToken.split(' ')[1];
 
-    const { user } = await jwt.verify(bearerToken, 'your-secret-key');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
+    const user = await jwt.verify(bearerToken, process.env.SECRATEKEY);
+    // console.log("This is the body part from auth",req.body);
+    req.body.UserID = user.mailid;
+    console.log("This is the body part from auth",req.body)
     next();
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };

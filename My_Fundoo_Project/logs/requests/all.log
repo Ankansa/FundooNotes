@@ -688,3 +688,882 @@ info: ::1 - - [28/Jun/2022:02:51:17 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [28/Jun/2022:02:53:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [28/Jun/2022:06:56:06 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 317 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:06:56:17 +0000] "POST /api/v1/users/newuser HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:30:26 +0000] "POST /api/v1/note/newNote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\routes\/index.js:15:23)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\/index.js:33:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Wed Jun 29 2022 03:01:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":109597},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18382868,"external":19839305,"heapTotal":88903680,"heapUsed":48803560,"rss":124563456},"pid":14120,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\routes\\/index.js:15:23)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:33:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":32,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":33,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [28/Jun/2022:21:32:59 +0000] "POST /api/v1/note/newNote HTTP/1.1" 201 231 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:33:50 +0000] "POST /api/v1/note/newNote HTTP/1.1" 201 233 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:45:04 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 314 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:47:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:52:02 +0000] "POST /api/v1/note/newnote HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:54:16 +0000] "POST /api/v1/note/newnote HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:54:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:21:56:19 +0000] "POST /api/v1/note/newnote HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:11:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:12:49 +0000] "POST /api/v1/note/newnote HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:16:29 +0000] "POST /api/v1/note/newnote/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJzQG1haWwuY29tIiwiaWQiOiI2MmJiNzY1ZmIwY2FmOTFjMzBiZDk0OTUiLCJpYXQiOjE2NTY0NTMyOTR9.nUjVuKsbCvPu95WkvpT_Pvgjslcv6lPSt5CS5Lkg5_Y HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:19:40 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:23:51 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 400 63 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:25:05 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 250 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:27:36 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 256 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jun/2022:22:55:27 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 219 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:45:10 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 224 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:46:54 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 231 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:48:37 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:49:36 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 201 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:51:42 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Jun 29 2022 08:23:29 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128902},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19442851,"external":20918728,"heapTotal":90640384,"heapUsed":59712032,"rss":128942080},"pid":12404,"uid":null,"version":"v18.3.0"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","trace":[]}
+info: ::1 - - [29/Jun/2022:02:56:25 +0000] "POST /api/v1/note/newnote/ HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:10:38:13 +0000] "GET /api/v1/note/allnote/ HTTP/1.1" 200 1663 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:10:54:29 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042d HTTP/1.1" 200 1663 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:10:55:01 +0000] "GET /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:10:55:08 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042d HTTP/1.1" 200 1663 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:10:57:49 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042d HTTP/1.1" 200 1663 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:10:59:26 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042d HTTP/1.1" 200 1663 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:03:29 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042d HTTP/1.1" 200 1663 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:04:28 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042d HTTP/1.1" 200 231 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:04:37 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:07:06 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:08:29 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:09:49 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:13:15 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:14:51 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:19:30 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:20:58 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:25:00 +0000] "GET /api/v1/user/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:25:07 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:25:47 +0000] "POST /api/v1/users/login HTTP/1.1" 400 49 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:26:20 +0000] "POST /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:26:31 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:26:38 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042d HTTP/1.1" 200 231 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:36:01 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042d HTTP/1.1" 200 231 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:36:15 +0000] "GET /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:42:58 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:45:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:54:35 +0000] "POST /api/v1/post HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:54:50 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:54:53 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:55:30 +0000] "POST /api/v1/note/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:55:36 +0000] "POST /api/v1/note/%20 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:56:06 +0000] "GET /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:56:50 +0000] "GET /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:57:08 +0000] "GET /api/v1/note HTTP/1.1" 200 1663 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:11:57:43 +0000] "GET /api/v1/note/62bbbd1e173ef237a8eae6ff HTTP/1.1" 200 231 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18827351,"external":20303208,"heapTotal":89427968,"heapUsed":49767488,"rss":125616128},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18846515,"external":20322372,"heapTotal":89427968,"heapUsed":50171384,"rss":125628416},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865679,"external":20341536,"heapTotal":89427968,"heapUsed":50581536,"rss":125657088},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18884843,"external":20360700,"heapTotal":89427968,"heapUsed":50976352,"rss":125669376},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18904007,"external":20379864,"heapTotal":89690112,"heapUsed":51614096,"rss":125710336},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18923171,"external":20399028,"heapTotal":89690112,"heapUsed":52002256,"rss":125747200},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18929533,"external":20405390,"heapTotal":89690112,"heapUsed":52359944,"rss":125767680},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18929533,"external":20405390,"heapTotal":89690112,"heapUsed":52703944,"rss":125771776},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18929533,"external":20405390,"heapTotal":89690112,"heapUsed":53079128,"rss":126058496},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+info: ::1 - - [29/Jun/2022:14:41:38 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:14:42:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:14:44:45 +0000] "POST /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:14:45:16 +0000] "POST /api/v1/note HTTP/1.1" 201 226 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:14:47:41 +0000] "POST /api/v1/note HTTP/1.1" 201 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:14:50:03 +0000] "POST /api/v1/note HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:14:57:56 +0000] "GET /api/v1/note HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:14:58:28 +0000] "GET /api/v1/note HTTP/1.1" 400 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:14:58:57 +0000] "GET /api/v1/note HTTP/1.1" 400 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:14:59:45 +0000] "GET /api/v1/note HTTP/1.1" 400 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:00:57 +0000] "GET /api/v1/note HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:02:53 +0000] "POST /api/v1/user/newuser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:03:05 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:03:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:04:59 +0000] "POST /api/v1/note HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:05:19 +0000] "POST /api/v1/note HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:05:58 +0000] "POST /api/v1/users/newuser HTTP/1.1" 400 63 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:06:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:06:42 +0000] "POST /api/v1/post HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:07:12 +0000] "POST /api/v1/post HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:07:31 +0000] "POST /api/v1/note HTTP/1.1" 201 230 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:07:47 +0000] "GET /api/v1/note HTTP/1.1" 200 2182 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:08:19 +0000] "GET /api/v1/note HTTP/1.1" 200 2182 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:08:33 +0000] "GET /api/v1/note HTTP/1.1" 200 2182 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:08:36 +0000] "GET /api/v1/note HTTP/1.1" 200 2182 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:09:55 +0000] "PUT /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 200 230 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:10:44 +0000] "PUT /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:11:27 +0000] "PUT /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 200 230 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:13:14 +0000] "PUT /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 200 230 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:21:18 +0000] "PUT /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:22:29 +0000] "PUT /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:22:39 +0000] "GET /api/v1/note HTTP/1.1" 200 2182 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:23:06 +0000] "PUT /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:23:43 +0000] "PUT /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 500 156 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:15:25:48 +0000] "PUT /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 200 231 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:49:37 +0000] "GET /api/v1/note HTTP/1.1" 200 2183 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:50:03 +0000] "DELETE /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 500 118 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:50:50 +0000] "DELETE /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 500 118 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:52:22 +0000] "DELETE /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 500 118 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:54:37 +0000] "DELETE /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 500 118 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:55:22 +0000] "DELETE /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 500 118 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:56:14 +0000] "DELETE /api/v1/note/62bc6ab3053164405cff5623 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:56:43 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:56:50 +0000] "GET /api/v1/note HTTP/1.1" 200 2009 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:57:16 +0000] "DELETE /api/v1/note/62bc660d1adab13de41e742L HTTP/1.1" 500 146 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:57:34 +0000] "DELETE /api/v1/note/62bc660d1adab13de41e7425 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:57:42 +0000] "DELETE /api/v1/note/62bc660d1adab13de41e742 HTTP/1.1" 500 145 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:57:52 +0000] "DELETE /api/v1/note/62bc660d1adab13de41e7429 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:58:03 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:58:09 +0000] "GET /api/v1/note HTTP/1.1" 200 2009 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:19:58:51 +0000] "DELETE /api/v1/note/62bb738b953bd13d48ee042b HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:06:50 +0000] "DELETE /api/v1/note/62454ae713ca132de4ea41a9 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:08:12 +0000] "DELETE /api/v1/note/62454ae713ca132de4ea41a9 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:13:29 +0000] "DELETE /api/v1/note/62454ae713ca132de4ea41a9 HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:13:39 +0000] "DELETE /api/v1/note/62454ae713ca132de4ea41a9 HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:14:21 +0000] "DELETE /api/v1/note/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:14:25 +0000] "GET /api/v1/note/ HTTP/1.1" 200 2009 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:14:48 +0000] "DELETE /api/v1/note/62bc660d1adab13de41e7422 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:14:50 +0000] "DELETE /api/v1/note/62bc660d1adab13de41e7422 HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:20:08 +0000] "DELETE /api/v1/note/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:20:11 +0000] "GET /api/v1/note/ HTTP/1.1" 200 1832 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:21:21 +0000] "PUT /api/v1/note/62bbbdc0b5528a2b9025dfce HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:21:45 +0000] "PUT /api/v1/note/62454ae713ca132de4ea41a9 HTTP/1.1" 500 45 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:23:16 +0000] "PUT /api/v1/note/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:20:23:21 +0000] "GET /api/v1/note/ HTTP/1.1" 200 1839 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:06:26:27 +0000] "POST /api/v1/note/ HTTP/1.1" 201 250 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:06:37:19 +0000] "POST /api/v1/note/ HTTP/1.1" 201 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:06:38:48 +0000] "POST /api/v1/note/ HTTP/1.1" 201 229 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:06:52:34 +0000] "POST /api/v1/note/ HTTP/1.1" 201 235 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:06:53:23 +0000] "POST /api/v1/note/ HTTP/1.1" 201 238 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:02:07 +0000] "POST /api/v1/note/ HTTP/1.1" 201 235 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:07:05 +0000] "POST /api/v1/note/ HTTP/1.1" 201 239 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:22:15 +0000] "POST /api/v1/note/ HTTP/1.1" 201 225 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:23:55 +0000] "POST /api/v1/note/ HTTP/1.1" 201 225 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:29:07 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:30:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:32:32 +0000] "POST /api/v1/note HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:33:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:34:57 +0000] "POST /api/v1/users/login HTTP/1.1" 400 49 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:35:28 +0000] "POST /api/v1/newNote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:36:07 +0000] "POST /api/v1/note/newNote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:37:13 +0000] "POST /api/v1/note HTTP/1.1" 201 232 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:41:29 +0000] "POST /api/v1/note HTTP/1.1" 201 255 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:45:31 +0000] "PUT /api/v1/note/62bd52a97036a722641d47f3 HTTP/1.1" 200 246 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:46:52 +0000] "DELETE /api/v1/note/62bd52a97036a722641d47f3 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:48:39 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:49:17 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:50:00 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 312 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:51:59 +0000] "PUT /api/v1/users/62bd55a76d59d13c08160c18 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:52:51 +0000] "PUT /api/v1/users/62bd55a76d59d13c08160c18 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:53:04 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 312 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:53:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:07:54:36 +0000] "POST /api/v1/note HTTP/1.1" 201 223 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:02:44 +0000] "GET /api/v1/users/newuser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:03:34 +0000] "GET /api/v1/users/newuser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:03:49 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:04:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:06:09 +0000] "POST /api/v1/users/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:06:21 +0000] "POST /api/v1/note HTTP/1.1" 400 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:07:14 +0000] "POST /api/v1/note HTTP/1.1" 201 251 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:10:34 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:11:27 +0000] "POST /api/v1/note HTTP/1.1" 201 256 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:08:11:44 +0000] "POST /api/v1/note HTTP/1.1" 201 256 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:11:42 +0000] "POST /api/v1/note HTTP/1.1" 201 252 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:20:39 +0000] "POST /api/v1/note HTTP/1.1" 201 251 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:31:40 +0000] "POST /api/v1/note HTTP/1.1" 201 268 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:39:36 +0000] "PUT /api/v1/note/62bdc1dbb78fde01707fd39d/archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:42:39 +0000] "PUT /api/v1/note/62bdc1dbb78fde01707fd39d/archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:48:42 +0000] "PUT /api/v1/note/62bdc1dbb78fde01707fd39d/archive HTTP/1.1" 200 268 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:50:38 +0000] "PUT /api/v1/note/62bdc1dbb78fde01707fd39d/archive HTTP/1.1" 200 268 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:57:19 +0000] "PUT /api/v1/note/62bdc1dbb78fde01707fd39d/archive HTTP/1.1" 200 268 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:58:53 +0000] "POST /api/v1/note HTTP/1.1" 201 280 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:15:59:04 +0000] "PUT /api/v1/note/62bdc1dbb78fde01707fd39d/archive HTTP/1.1" 200 268 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:00:29 +0000] "POST /api/v1/note HTTP/1.1" 201 280 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:00:48 +0000] "POST /api/v1/note/62bdc89cee9b5007089e8a2b/archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:00:54 +0000] "PUT /api/v1/note/62bdc89cee9b5007089e8a2b/archive HTTP/1.1" 200 280 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:01:44 +0000] "GET /api/v1/note HTTP/1.1" 200 2198 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:03:41 +0000] "PUT /api/v1/note/62bdc89cee9b5007089e8a2b/archive HTTP/1.1" 200 280 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: True is not defined
+ReferenceError: True is not defined
+    at _callee6$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:74:70)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Jun 30 2022 21:37:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":262961},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18317997,"external":19791909,"heapTotal":51679232,"heapUsed":47277792,"rss":91529216},"pid":7672,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: True is not defined\n    at _callee6$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/note.service.js:74:70)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":70,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/note.service.js","function":"_callee6$","line":74,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [30/Jun/2022:16:09:04 +0000] "PUT /api/v1/note/62bdc89cee9b5007089e8a2b/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:09:26 +0000] "GET /api/v1/note HTTP/1.1" 200 2198 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:09:46 +0000] "GET /api/v1/note/62bdc89cee9b5007089e8a2b/archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:09:59 +0000] "PUT /api/v1/note/62bdc89cee9b5007089e8a2b/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:10:18 +0000] "GET /api/v1/note HTTP/1.1" 200 2198 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:10:40 +0000] "PUT /api/v1/note/62bdbf466c6d3a4cbc6de08d/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:11:27 +0000] "GET /api/v1/note HTTP/1.1" 200 2198 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:12:55 +0000] "PUT /api/v1/note/62bdc89cee9b5007089e8a2b/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:13:10 +0000] "PUT /api/v1/note/62bdc89cee9b5007089e8a2b/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:14:09 +0000] "POST /api/v1/note HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:16:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:18:08 +0000] "POST /api/v1/note HTTP/1.1" 201 272 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:18:49 +0000] "PUT /api/v1/note/62bdccbf8bd84826148a0481/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:27:53 +0000] "PUT /api/v1/note/62bdccbf8bd84826148a0481/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:30:32 +0000] "PUT /api/v1/note/62bdccbf8bd84826148a0481/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:33:13 +0000] "PUT /api/v1/note/62bdccbf8bd84826148a0481/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:16:39:03 +0000] "PUT /api/v1/note/62bdccbf8bd84826148a0481/archive HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:09:08 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 317 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:09:38 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 317 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:10:02 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:10:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:14:29 +0000] "POST /api/v1/note HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:15:12 +0000] "POST /api/v1/note HTTP/1.1" 201 327 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:18:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:20:04 +0000] "POST /api/v1/note HTTP/1.1" 201 321 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:20:22 +0000] "POST /api/v1/note HTTP/1.1" 201 329 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:20:55 +0000] "GET /api/v1/note HTTP/1.1" 200 1132 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:21:38 +0000] "GET /api/v1/note HTTP/1.1" 200 1132 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:40:09 +0000] "GET /api/v1/note HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:41:17 +0000] "GET /api/v1/note HTTP/1.1" 500 103 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:44:32 +0000] "GET /api/v1/note HTTP/1.1" 200 1132 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:47:42 +0000] "GET /api/v1/note HTTP/1.1" 500 103 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:19:53:59 +0000] "GET /api/v1/note HTTP/1.1" 200 600 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:02:38 +0000] "GET /api/v1/note HTTP/1.1" 200 596 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:06:47 +0000] "GET /api/v1/note/62bdf640570ac418d4d74c45/archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:07:01 +0000] "PUT /api/v1/note/62bdf640570ac418d4d74c45/archive HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:09:08 +0000] "PUT /api/v1/note/archive/62bdf640570ac418d4d74c45 HTTP/1.1" 200 318 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:09:57 +0000] "PUT /api/v1/note/archive/62bdf640570ac418d4d74c45 HTTP/1.1" 200 318 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:23:56 +0000] "PUT /api/v1/note/archive/62bdf640570ac418d4d74c45 HTTP/1.1" 200 318 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:24:58 +0000] "PUT /api/v1/note/archive/62bdf640570ac418d4d74c45 HTTP/1.1" 200 318 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:36:22 +0000] "PUT /api/v1/note/archive/62bdf640570ac418d4d74c45 HTTP/1.1" 200 327 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:38:24 +0000] "PUT /api/v1/note/archive/62bdf640570ac418d4d74c45 HTTP/1.1" 200 326 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:40:30 +0000] "PUT /api/v1/note/archive/62bdf764570ac418d4d74c48 HTTP/1.1" 200 320 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:20:50:18 +0000] "PUT /api/v1/note/archive/62bdf764570ac418d4d12c48 HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:38:41 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 314 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:39:50 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 314 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:40:35 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:41:05 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:41:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:41:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:41:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:43:22 +0000] "POST /api/v1/note HTTP/1.1" 400 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:47:54 +0000] "POST /api/v1/note HTTP/1.1" 400 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:49:41 +0000] "POST /api/v1/note HTTP/1.1" 400 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:50:52 +0000] "POST /api/v1/note HTTP/1.1" 400 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:52:30 +0000] "POST /api/v1/note HTTP/1.1" 201 287 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:53:05 +0000] "POST /api/v1/note HTTP/1.1" 201 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:53:21 +0000] "POST /api/v1/note HTTP/1.1" 201 287 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:53:58 +0000] "POST /api/v1/note HTTP/1.1" 201 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:55:13 +0000] "POST /api/v1/note HTTP/1.1" 201 299 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:21:56:39 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:25:05 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 400 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:25:39 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:30:24 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:43:57 +0000] "PUT /api/v1/note/trash/62be1bc140d5ac0854f520cf HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:22:44:23 +0000] "PUT /api/v1/note/trash/62be1b5140d5ac0854f520cb HTTP/1.1" 200 292 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:46:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:47:10 +0000] "GET /api/v1/note/62be1b1d40d5ac0854f520c7 HTTP/1.1" 200 287 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:47:30 +0000] "GET /api/v1/note/62be1b1d40d5ac0854f520c7 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:49:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:49:58 +0000] "GET /api/v1/note/62be1b1d40d5ac0854f520c7 HTTP/1.1" 200 287 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:11:51:10 +0000] "GET /api/v1/note/62be1b1d40d5ac0854f520c7 HTTP/1.1" 400 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:13:06:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:13:06:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:13:09:42 +0000] "PUT /api/v1/note/62be1b4140d5ac0854f520c9 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:13:21:17 +0000] "PUT /api/v1/note/62be1b4140d5ac0854f520c9 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:13:22:22 +0000] "PUT /api/v1/note/62be1b4140d5ac0854f520c9 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:13:46:43 +0000] "PUT /api/v1/note/62be1b4140d5ac0854f520c9 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:13:47:32 +0000] "PUT /api/v1/note/62be1b4140d5ac0854f520c9 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:07:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:08:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:09:46 +0000] "PUT /api/v1/note/62be1b1d40d5ac0854f520c7 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:12:40 +0000] "PUT /api/v1/note/62be1b1d40d5ac0854f520c7 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:27:10 +0000] "PUT /api/v1/note/62be1b5140d5ac0854f520cb HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:27:42 +0000] "PUT /api/v1/note/62be1b5140d5ac0854f520cb HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:28:25 +0000] "PUT /api/v1/note/62be1b5140d5ac0854f520cb HTTP/1.1" 500 118 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:29:46 +0000] "PUT /api/v1/note/62be1b5140d5ac0854f520cb HTTP/1.1" 200 345 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:38:18 +0000] "PUT /api/v1/note/62be1b5140d5ac0854f520cb HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:39:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:41:37 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:42:50 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:43:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:44:01 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:44:45 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:48:07 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:51:23 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:52:17 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:54:22 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 500 119 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:56:14 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 345 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:57:01 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 345 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:58:32 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 345 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:59:00 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 345 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:14:59:37 +0000] "PUT /api/v1/note/62be1b7640d5ac0854f520cd HTTP/1.1" 200 345 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:43:42 +0000] "GET /api/v1/user/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:43:47 +0000] "POST /api/v1/user/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:44:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:45:56 +0000] "POST /api/v1/note HTTP/1.1" 201 306 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:46:37 +0000] "POST /api/v1/note/archive/62bf4ef301eefc01a4cda02b HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:47:41 +0000] "POST /api/v1/note/archive/62bf4ef301eefc01a4cda02b HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:49:00 +0000] "PUT /api/v1/note/archive/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 305 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:49:15 +0000] "PUT /api/v1/note/archive/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 305 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:50:31 +0000] "PUT /api/v1/note/trash/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:50:33 +0000] "PUT /api/v1/note/trash/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:50:53 +0000] "PUT /api/v1/note/trash/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:51:02 +0000] "PUT /api/v1/note/trash/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:51:38 +0000] "PUT /api/v1/note/trash/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 310 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:51:43 +0000] "PUT /api/v1/note/trash/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 311 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:57:25 +0000] "PUT /api/v1/note/archive/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:58:04 +0000] "PUT /api/v1/note/archive/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:59:18 +0000] "PUT /api/v1/note/archive/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 306 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:19:59:21 +0000] "PUT /api/v1/note/archive/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 305 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:10:23 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:11:39 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:12:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:13:07 +0000] "POST /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:13:22 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:17:56 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:24:15 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:25:39 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:26:26 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:26:33 +0000] "PUT /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:33:37 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:44:05 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:45:00 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:45:37 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:46:01 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:49:10 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 400 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:49:42 +0000] "DELETE /api/v1/note/62bf4ef301eefc01a4cda02b HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:54:37 +0000] "POST /api/v1/note HTTP/1.1" 201 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:55:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:56:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:20:59:17 +0000] "PUT /api/v1/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:00:11 +0000] "PUT /api/v1/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:01:54 +0000] "PUT /api/v1/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:04:05 +0000] "PUT /api/v1/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:05:53 +0000] "PUT /api/v1/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:07:25 +0000] "PUT /api/v1/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:07:45 +0000] "PUT /api/v1/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:08:24 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 292 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:08:27 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:08:37 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 292 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:08:59 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:09:03 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 292 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:09:18 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:09:20 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 292 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:09:23 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:14:52 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:15:06 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:15:08 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:15:19 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 292 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:15:21 +0000] "PUT /api/v1/note/archive/62bf5f0d4b256231942a1ad5 HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:37:50 +0000] "PUT /api/v1/note/trash/62bf5f0d4b256231942a1ad5 HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:38:21 +0000] "PUT /api/v1/note/trash/62bf5f0d4b256231942a1ad5 HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:40:45 +0000] "PUT /api/v1/note/trash/62bf5f0d4b256231942a1ad5 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:41:08 +0000] "PUT /api/v1/note/trash/62bf5f0d4b256231942a1ad5 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:21:41:25 +0000] "PUT /api/v1/note/trash/62bf5f0d4b256231942a1ad0 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.0"
+

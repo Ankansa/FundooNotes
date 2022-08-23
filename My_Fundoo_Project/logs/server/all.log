@@ -2455,3 +2455,1659 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T0
 info: Connected to the database. {"timestamp":"2022-06-28T02:52:19.542Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:52:52.539Z"}
 info: Connected to the database. {"timestamp":"2022-06-28T02:52:55.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T06:54:34.556Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T06:54:38.259Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo_Ankan.users index: mailid_1 dup key: { mailid: "kd@ownmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T06:56:17.413Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T06:56:17.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:29:23.354Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:29:26.649Z"}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\routes\/index.js:15:23)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\/index.js:33:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Wed Jun 29 2022 03:01:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":109597},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18371478,"external":19827875,"heapTotal":88903680,"heapUsed":48592680,"rss":123916288},"pid":14120,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\routes\\/index.js:15:23)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:33:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-06-28T21:31:44.745Z","trace":[{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":32,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":33,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:32:51.512Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:32:54.781Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:35:46.595Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:35:49.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:36:05.544Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:36:08.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:39:29.158Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:39:32.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:40:08.551Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:40:11.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:41:05.301Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:41:08.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:42:16.269Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:42:19.526Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T21:47:43.895Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T21:47:49.447Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/newnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T21:52:02.547Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/newnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T21:54:16.202Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T21:56:19.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:09:36.758Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T22:09:40.418Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T22:12:49.201Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T22:19:40.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:23:38.018Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T22:23:42.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:29:37.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:30:05.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:30:12.605Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T22:30:15.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T22:30:49.542Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T22:30:53.328Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:43:34.023Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:43:37.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:46:26.399Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:46:30.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:46:44.829Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:46:48.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:48:01.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:48:22.779Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:48:25.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:49:20.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:49:30.171Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:49:33.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:51:34.139Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:51:37.700Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/note/newnote/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:51:42.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:52:32.387Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:52:36.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:53:20.754Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:53:24.060Z"}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Jun 29 2022 08:23:29 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128902},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19442827,"external":20918664,"heapTotal":90640384,"heapUsed":59673032,"rss":128409600},"pid":12404,"uid":null,"version":"v18.3.0"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","timestamp":"2022-06-29T02:53:29.850Z","trace":[]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:54:57.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T02:56:16.836Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:56:20.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T06:12:55.350Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T06:12:58.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T06:25:50.029Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T06:25:53.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:37:07.853Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:37:10.795Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:38:56.671Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:39:00.026Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:41:31.293Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:41:46.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:45:03.962Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:45:07.206Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:45:43.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:45:56.179Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:45:59.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:46:16.811Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:46:19.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:46:59.982Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:47:03.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:48:05.124Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:48:07.957Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:48:37.039Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:48:39.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:49:02.461Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:49:05.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:49:30.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:49:42.766Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:49:45.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:50:04.801Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:50:07.643Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:50:27.291Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:50:30.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:53:30.878Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:53:34.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:53:40.185Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:53:43.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:56:48.114Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:56:52.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:57:23.800Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:57:27.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:57:43.332Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:57:46.261Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T10:59:08.444Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T10:59:11.848Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:04:16.642Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:04:19.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:05:42.825Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:05:46.514Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:06:11.869Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:06:14.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:06:45.528Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:06:48.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:08:23.409Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:08:26.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:09:20.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:09:40.647Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:09:43.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:10:36.800Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:10:40.628Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:11:25.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:12:06.411Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:12:09.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:12:36.963Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:12:40.040Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:12:51.976Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:12:54.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:13:02.451Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:13:05.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:14:29.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:14:44.844Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:14:47.771Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:15:56.920Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:16:00.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:16:14.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:16:21.781Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:16:24.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:17:50.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:18:41.921Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:18:44.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:18:53.609Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:18:56.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:19:09.687Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:19:12.464Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:20:50.755Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:20:54.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:34:24.139Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:34:28.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:35:01.585Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:35:04.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:35:27.162Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:35:30.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:52:00.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:52:09.225Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:52:12.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:55:52.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:56:00.351Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:56:03.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:56:44.286Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:56:47.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:57:02.930Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:57:05.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T11:57:28.394Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T11:57:31.337Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T12:00:36.359Z"}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18814525,"external":20290342,"heapTotal":89427968,"heapUsed":49449120,"rss":125038592},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-06-29T12:00:36.394Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18833713,"external":20309570,"heapTotal":89427968,"heapUsed":49892048,"rss":125620224},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-06-29T12:00:36.402Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18852877,"external":20328734,"heapTotal":89427968,"heapUsed":50295568,"rss":125644800},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-06-29T12:00:36.410Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18872041,"external":20347898,"heapTotal":89427968,"heapUsed":50695184,"rss":125661184},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-06-29T12:00:36.417Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18891205,"external":20367062,"heapTotal":89427968,"heapUsed":51087000,"rss":125677568},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-06-29T12:00:36.425Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18910369,"external":20386226,"heapTotal":89690112,"heapUsed":51723776,"rss":125722624},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-06-29T12:00:36.432Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18929533,"external":20405390,"heapTotal":89690112,"heapUsed":52116056,"rss":125755392},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-06-29T12:00:36.439Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18929533,"external":20405390,"heapTotal":89690112,"heapUsed":52457304,"rss":125767680},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-06-29T12:00:36.444Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:857:11)
+    at WriteStream.Socket._write (node:net:869:8)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Jun 29 2022 17:30:36 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":161727},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18929533,"external":20405390,"heapTotal":89690112,"heapUsed":52800088,"rss":125771776},"pid":8952,"uid":null,"version":"v18.3.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:857:11)\n    at WriteStream.Socket._write (node:net:869:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-06-29T12:00:36.453Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":857,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":869,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:40:04.625Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:40:08.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:51:42.319Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:51:45.741Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:53:14.059Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:53:17.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:53:25.530Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:53:28.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:54:23.638Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:54:26.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:54:41.199Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:54:44.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:54:59.648Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:55:02.705Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:55:16.952Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:55:19.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:56:25.266Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:56:28.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:56:42.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:56:48.862Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:56:52.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T14:59:38.597Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T14:59:42.047Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:10:36.307Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:10:41.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:11:19.784Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:11:22.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:13:02.317Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:13:09.023Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:16:19.611Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:16:22.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:17:59.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:18:09.052Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:18:52.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:19:17.132Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:19:20.148Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:20:00.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:20:10.933Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:20:15.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:20:40.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:20:49.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:21:09.324Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:21:13.051Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:39:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.UpdateNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:36:24)
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:58:40)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-29T15:21:18.952Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:39:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.UpdateNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:36:24)
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:58:40)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-29T15:23:06.775Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:23:36.247Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:23:40.419Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '62bc6ab3053164405cff5623' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-29T15:23:43.739Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:25:40.309Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:25:43.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T15:52:49.189Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T15:52:52.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:37:03.677Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:37:07.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:41:29.101Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:41:32.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:42:01.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:42:27.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:44:23.467Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:44:26.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:44:43.512Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:45:03.915Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:45:06.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:45:31.012Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:45:34.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:47:42.228Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:47:45.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:48:07.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:48:13.714Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:48:16.670Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 62bc6ab3053164405cff5623
+    at model.Query.Query.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:2837:16)
+    at Function.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:2049:13)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:58:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:57:24)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:73:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-29T19:50:03.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:50:44.081Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:50:47.222Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 62bc6ab3053164405cff5623
+    at model.Query.Query.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:2837:16)
+    at Function.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:2049:13)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:58:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:57:24)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:73:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-29T19:50:50.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:52:10.781Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:52:13.935Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 62bc6ab3053164405cff5623
+    at model.Query.Query.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:2837:16)
+    at Function.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:2049:13)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:58:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:57:24)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:73:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-29T19:52:22.266Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:52:50.887Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:52:53.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:53:58.538Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:54:01.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:54:30.744Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:54:33.871Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 62bc6ab3053164405cff5623
+    at model.Query.Query.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:2837:16)
+    at Function.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:2049:13)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:58:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:57:24)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:73:23)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-29T19:54:37.848Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:55:16.950Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:55:19.986Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 62bc6ab3053164405cff5623
+    at model.Query.Query.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:2837:16)
+    at Function.deleteOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:2049:13)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:58:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:57:24)
+    at _callee5$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:73:23)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62bc6ab3053164405cff5623 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-29T19:55:22.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T19:56:09.360Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T19:56:12.226Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "62bc660d1adab13de41e742L" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62bc660d1adab13de41e742L 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-29T19:57:16.660Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "62bc660d1adab13de41e742" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62bc660d1adab13de41e742 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-29T19:57:42.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:07:45.373Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:07:48.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:09:06.758Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:09:09.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:09:38.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:09:49.903Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:09:52.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:10:24.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:10:35.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:10:42.159Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:10:45.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:11:56.013Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:11:59.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:12:20.565Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:12:23.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:12:51.421Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:12:54.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:13:20.811Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:13:24.716Z"}
+error: 
+    status - 500 
+    message - Error: Invalid ID
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:50:13)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62454ae713ca132de4ea41a9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-29T20:21:45.795Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:29:20.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:29:31.354Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:29:34.121Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:30:21.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:30:53.428Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:30:56.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:33:17.115Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:33:20.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:33:43.692Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:33:46.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:34:02.828Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:34:05.576Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:34:37.083Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:34:40.358Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:35:00.134Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:35:03.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:36:05.933Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:36:10.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:43:11.594Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:43:15.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:43:23.234Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:43:26.111Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:44:05.093Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:44:07.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:44:17.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:44:26.652Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:44:29.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:44:41.357Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:44:44.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:44:53.263Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:44:56.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:45:10.266Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:45:13.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:45:29.155Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:45:32.176Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:45:50.693Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:45:53.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-29T20:46:14.899Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T20:46:18.974Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:26:18.231Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:26:21.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:36:30.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:36:41.101Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:36:43.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:36:55.097Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:36:58.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:38:16.872Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:38:20.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:41:00.141Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:41:03.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:49:03.837Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:49:07.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:49:26.745Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:49:29.823Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:49:52.685Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:50:00.403Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:50:03.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:51:20.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:51:26.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:51:35.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:51:48.977Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:51:51.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:52:07.884Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:52:10.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:52:59.061Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:53:02.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:53:47.666Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:53:50.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:54:22.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:54:28.954Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:54:31.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:56:37.371Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:56:40.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:57:14.778Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:57:17.641Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:58:08.503Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:58:12.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:59:02.942Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:59:05.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:59:46.412Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T06:59:49.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:00:38.736Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:00:41.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:00:54.008Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:00:57.047Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:06:02.439Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:06:06.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:21:16.617Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:21:19.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:38:00.333Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:38:03.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:38:42.486Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:38:45.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:39:28.458Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:39:31.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:41:15.327Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:41:18.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:43:15.012Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:43:18.167Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:43:28.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T07:43:37.206Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T07:43:40.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T08:00:06.086Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T08:00:09.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:07:02.140Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:07:06.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:18:20.636Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:18:24.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:27:08.785Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:27:13.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:28:25.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:31:12.407Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:31:16.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:42:25.883Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:42:29.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:48:32.168Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:48:37.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:50:21.270Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:50:25.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:52:12.323Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:52:16.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:55:53.191Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:56:03.372Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:56:07.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T15:57:10.981Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T15:57:15.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:05:09.091Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:05:12.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:06:18.230Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:06:21.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:06:50.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:07:13.369Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:07:17.211Z"}
+error: uncaughtException: True is not defined
+ReferenceError: True is not defined
+    at _callee6$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:74:70)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Jun 30 2022 21:37:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":262961},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18309781,"external":19871672,"heapTotal":51679232,"heapUsed":47160664,"rss":90931200},"pid":7672,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: True is not defined\n    at _callee6$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/note.service.js:74:70)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2022-06-30T16:07:52.077Z","trace":[{"column":70,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/note.service.js","function":"_callee6$","line":74,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:08:30.853Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:08:37.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:27:15.045Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:27:19.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:27:32.502Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:27:40.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:28:27.820Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:28:31.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:30:22.892Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:30:27.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:33:06.142Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:33:10.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:38:52.379Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:38:56.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:01:14.855Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:255:19)","syscall":"querySrv","timestamp":"2022-06-30T19:01:14.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:02:14.803Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:02:58.260Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:06:06.250Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:06:11.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:08:44.830Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:08:55.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:25:14.885Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:25:18.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:26:31.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:26:49.440Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:26:56.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:27:07.240Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:27:14.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:27:23.106Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:27:27.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:27:36.006Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:27:40.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:27:46.784Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:27:51.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:31:48.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:31:58.643Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:32:04.129Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:33:44.325Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:33:50.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:34:11.861Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:34:15.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:35:13.636Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:35:19.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:36:29.898Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:36:35.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:39:04.177Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:39:20.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:39:33.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:39:40.010Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:39:44.064Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:27:52)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:25:24)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-30T19:40:09.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:40:44.169Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:40:48.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:41:07.074Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:41:11.648Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got as@ownmail.com
+    at model.Query.Query.find (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:17:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:16:25)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:27:40)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-30T19:41:17.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:44:22.008Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:44:28.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:47:33.088Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:47:39.055Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got as@ownmail.com
+    at model.Query.Query.find (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:17:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:16:25)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:27:40)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-30T19:47:42.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:52:50.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T19:53:44.461Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T19:53:56.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:08:38.240Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:08:41.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:14:37.104Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:14:40.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:14:47.727Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:14:51.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:15:14.280Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:15:17.260Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:15:35.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:15:45.656Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:15:48.758Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:15:57.133Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:16:00.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:17:03.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:17:10.568Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:17:13.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:17:22.333Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:17:25.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:17:53.033Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:17:56.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:18:08.560Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:18:12.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:18:43.293Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:18:46.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:21:41.695Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:21:45.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:22:54.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:23:07.233Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:23:10.660Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:24:46.273Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:24:49.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:27:46.829Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:27:50.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:28:07.327Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:28:10.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:33:31.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:33:51.301Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:33:54.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:36:07.707Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:36:11.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:37:50.542Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:37:53.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:39:49.863Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:39:53.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:42:24.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:42:33.016Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:42:46.544Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:42:49.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:43:02.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:43:23.741Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:43:27.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:43:56.664Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:43:59.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:44:51.141Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:44:54.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:45:11.519Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:45:14.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:47:37.013Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:47:40.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:48:43.306Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:48:46.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:49:00.386Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:49:03.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:49:25.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:49:33.664Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:49:36.870Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:49:56.694Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:49:59.927Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:51:09.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T20:51:26.276Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T20:51:29.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:14:36.196Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:14:39.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:17:26.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:17:33.456Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:17:36.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:18:53.359Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:18:56.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:19:09.191Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:19:12.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:19:43.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:19:54.560Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:19:57.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:20:11.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:20:19.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:20:40.437Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:20:43.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:21:48.657Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:21:52.209Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:22:19.480Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:22:22.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:22:35.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:22:43.859Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:22:46.983Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:23:06.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:23:18.553Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:23:21.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:23:46.366Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:23:49.328Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:23:56.742Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:23:59.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:24:56.316Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:25:05.644Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:25:08.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:28:19.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:28:36.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:28:53.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:29:02.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:29:16.934Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:29:20.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:30:25.921Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:30:28.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:30:42.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:31:19.892Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:31:22.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:31:38.522Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:31:41.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:31:56.432Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:31:59.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:47:41.183Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:47:44.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:49:30.871Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:49:34.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:50:23.154Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:50:26.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:50:46.023Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:50:49.206Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T21:51:10.393Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T21:51:13.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:21:43.567Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:21:47.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:22:16.092Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:22:19.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:23:24.541Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:23:27.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:23:45.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:23:53.835Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:23:56.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:24:20.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:24:36.587Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:24:39.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:25:29.029Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:25:32.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:26:39.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:29:57.342Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:30:00.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:33:32.580Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:33:35.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:33:50.330Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:33:53.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:37:41.123Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:37:44.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:39:09.618Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:39:13.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:42:22.365Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:42:25.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:43:32.582Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:43:35.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:45:11.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:45:24.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:45:45.741Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:45:56.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:46:12.481Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:46:15.357Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:46:51.014Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:46:54.307Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:47:23.362Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:47:26.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T22:50:39.139Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T22:50:42.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T02:51:38.888Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:52:32.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T11:43:52.875Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T11:43:56.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T11:51:02.711Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T11:51:06.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T11:59:43.188Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T11:59:46.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:00:52.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:01:02.997Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:01:05.841Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:01:16.646Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:01:19.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:01:36.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:01:53.043Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:01:56.272Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:02:17.503Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:02:20.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:02:28.299Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:02:31.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:12:06.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:12:15.214Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:12:18.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:12:36.786Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:12:39.785Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:12:47.711Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:12:50.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:13:08.565Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:13:11.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:14:05.575Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:14:08.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:15:02.517Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:15:05.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:16:19.448Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:16:22.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:17:04.955Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:17:07.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:17:45.689Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:17:52.622Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:17:55.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:41:28.163Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:41:32.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:42:23.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:42:55.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:43:25.266Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:43:28.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:43:51.556Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:43:56.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:49:08.647Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:49:11.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:58:13.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:58:37.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:58:43.834Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:58:46.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T12:59:01.680Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T12:59:04.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:04:05.944Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:04:09.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:04:23.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:04:31.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:05:09.053Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:05:12.311Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:13:54.066Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:13:57.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:21:00.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:21:07.890Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:21:10.632Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:22:16.307Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:22:19.354Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:23:30.278Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:23:33.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:38:18.558Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:38:24.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:42:31.589Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:42:34.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:46:37.092Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:46:40.407Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/note.controller.js:62:45)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62be1b4140d5ac0854f520c9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T13:46:43.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T13:47:03.660Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:47:08.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:12:03.547Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:12:07.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:12:34.173Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:12:37.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:20:01.000Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:20:04.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:21:26.652Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:21:30.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:21:55.260Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:21:58.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:23:32.403Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:23:35.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:24:24.756Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:24:28.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:24:56.902Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:25:00.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:25:15.096Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:25:18.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:26:16.209Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:26:19.436Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Faild
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:44:13)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62be1b5140d5ac0854f520cb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T14:27:10.840Z"}
+error: 
+    status - 500 
+    message - ReferenceError: updateData is not defined
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:40:17)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62be1b5140d5ac0854f520cb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T14:27:42.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:28:15.927Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:28:19.954Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to updateOne() must be an object, got 62be1b5140d5ac0854f520cb
+    at _update (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4337:17)
+    at model.Query.Query.updateOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4249:10)
+    at _update (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:4038:16)
+    at Function.updateOne (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3974:10)
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:40:30)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62be1b5140d5ac0854f520cb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T14:28:25.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:29:24.122Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:29:28.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:37:01.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:37:22.863Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:37:25.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:38:11.582Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:38:15.192Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Faild
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:44:13)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62be1b7640d5ac0854f520cd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T14:41:37.441Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Faild
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:44:13)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62be1b7640d5ac0854f520cd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T14:42:50.758Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:47:40.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:47:56.469Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:47:59.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:51:14.384Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:51:18.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:53:27.481Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:53:30.739Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:53:39.745Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:53:42.802Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to updateMany() must be an object, got 62be1b7640d5ac0854f520cd
+    at _update (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4337:17)
+    at model.Query.Query.updateMany (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\query.js:4183:10)
+    at _update (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:4038:16)
+    at Function.updateMany (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3936:10)
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:40:30)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62be1b7640d5ac0854f520cd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T14:54:22.460Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:55:22.891Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:55:27.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T14:58:18.373Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T14:58:21.512Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T15:13:50.407Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T15:13:53.896Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:41:50.673Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T19:41:54.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:51:30.099Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T19:51:33.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:54:31.382Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T19:54:34.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:54:56.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:55:04.047Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:55:16.496Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T19:55:19.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:55:48.654Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T19:55:51.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:56:35.257Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T19:56:38.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:57:01.023Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T19:57:04.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T19:59:09.302Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T19:59:12.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:03:12.505Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:03:15.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:03:34.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:03:41.196Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:03:44.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:03:51.280Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:03:54.156Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:09:58.181Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:10:01.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:10:59.648Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:11:03.065Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:11:33.245Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:11:36.277Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Faild
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:45:13)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62bf4ef301eefc01a4cda02b 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T20:13:22.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:14:43.347Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:14:46.507Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:15:00.689Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:15:03.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:15:30.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:15:38.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:15:44.039Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:15:47.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:16:05.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:16:30.929Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:16:33.864Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Faild
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:46:13)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62bf4ef301eefc01a4cda02b 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T20:17:56.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:22:39.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:23:57.749Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:24:01.211Z"}
+error: 
+    status - 500 
+    message - Error: Authentication Faild
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:51:15)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62bf4ef301eefc01a4cda02b 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T20:24:15.037Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/note.service.js:36:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/62bf4ef301eefc01a4cda02b 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T20:25:39.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:26:12.054Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:26:15.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:39:29.304Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:39:32.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:41:04.127Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:41:07.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:41:15.691Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:41:18.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:42:01.565Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:42:04.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:44:53.304Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:44:56.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:45:15.674Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:45:18.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:46:42.829Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:46:45.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:01.647Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:48:05.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:11.434Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:48:14.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:28.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:35.773Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:48:38.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:50.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:48:58.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T20:49:05.877Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T20:49:08.938Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:527:28)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1344:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//archive/62bf5f0d4b256231942a1ad5 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T20:58:27.998Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:527:28)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1344:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/archive/62bf5f0d4b256231942a1ad5 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T20:58:58.823Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:05:36.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:05:45.656Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:05:48.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:10:20.950Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:10:23.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:10:46.248Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:10:49.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:11:29.788Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:11:33.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:12:03.422Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:12:06.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:13:28.205Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:13:31.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:13:38.515Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:13:41.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:13:57.449Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:14:00.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:14:06.181Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:14:09.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:14:17.560Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:14:20.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:14:27.736Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:14:30.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:33:10.052Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:33:13.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:33:47.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:34:25.564Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:34:28.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:34:44.724Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:34:47.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:35:02.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:35:09.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:35:16.770Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:35:19.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:35:25.756Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:35:28.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:36:56.616Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:36:59.694Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T21:40:27.448Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T21:40:30.601Z"}
