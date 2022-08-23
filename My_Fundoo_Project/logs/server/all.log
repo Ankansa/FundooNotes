@@ -1186,3 +1186,1272 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T0
 info: Connected to the database. {"timestamp":"2022-06-25T03:19:37.607Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-25T03:19:46.306Z"}
 info: Connected to the database. {"timestamp":"2022-06-25T03:19:49.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:21:06.358Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:21:09.931Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mailid" is required 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T13:24:31.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:27:49.898Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:27:53.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:28:29.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:28:39.155Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:28:43.036Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:28:55.766Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:28:59.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:31:18.746Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:31:22.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:32:04.567Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:32:10.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:32:48.788Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:32:52.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:39:27.179Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:39:30.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:41:28.063Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:41:31.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:42:22.335Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:42:26.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:43:56.364Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:44:01.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:44:33.667Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:44:36.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:48:00.666Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:48:04.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T13:48:53.523Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T13:48:56.637Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:24:06.345Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:24:09.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:30:23.316Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:30:26.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:30:37.255Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:30:40.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:30:48.684Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:31:05.167Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:31:10.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:32:25.964Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:32:29.711Z"}
+error: 
+    status - 500 
+    message - TypeError: _user.default.findone is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:33:13.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:33:41.961Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:33:45.175Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findone is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:25)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:33:51.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:36:56.229Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:36:59.308Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findone')
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:30)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:37:02.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:37:59.820Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:38:03.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:38:33.544Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:38:36.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:41:39.044Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:41:42.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:44:23.615Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:44:26.731Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findone is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:25)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:44:30.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:45:06.419Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:45:09.409Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findone is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:25)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:45:12.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:46:18.779Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:46:22.197Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findone is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:46:27.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:58:31.119Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:58:34.503Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findone is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:59:11.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T14:59:48.780Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:59:52.090Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findone is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:21)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:59:54.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:00:07.217Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:00:15.184Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findone is not a function
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:21)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:116:19)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:00:17.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:01:04.597Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:01:07.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:04:59.741Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:05:03.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:05:12.328Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:05:15.710Z"}
+error: 
+    status - 500 
+    message - ReferenceError: DATABASE is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:22)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:06:01.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:07:29.642Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:07:33.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:12:21.198Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:12:24.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:13:16.627Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:13:19.884Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:16:44.098Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:16:47.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:16:59.946Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:17:03.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:17:38.287Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:17:41.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:18:07.100Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:18:10.813Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:18:36.105Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:18:39.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:19:33.352Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:19:37.202Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:20:19.264Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:20:22.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:21:54.281Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:21:57.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:25:14.254Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:25:17.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:25:52.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:26:01.800Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:26:09.104Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:26:12.097Z"}
+error: 
+    status - 500 
+    message - ReferenceError: DATABASE is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:22)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:27:39.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:29:02.347Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:29:05.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:29:44.525Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:29:47.475Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:30:22.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:32:47.880Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:32:51.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:33:20.040Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:33:23.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:34:59.404Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:35:03.271Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.find is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:36:53.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:38:25.241Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:38:28.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:38:40.415Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:38:43.280Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.FindOne is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:38:58.169Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:39:33.449Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:39:36.646Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findOne is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:41:16.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:43:00.496Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:43:04.675Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:43:12.427Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:43:15.459Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findOne is not a function
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:21)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:116:19)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:43:21.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:43:45.665Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:43:48.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:44:48.478Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:44:51.660Z"}
+error: 
+    status - 500 
+    message - TypeError: _mongodb.Db.findOne is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:27)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:45:08.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:48:34.196Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:48:37.604Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:32)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:58:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:48:59.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:49:50.575Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:49:55.230Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T15:51:41.141Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T15:51:44.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:00:16.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:00:29.022Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:00:32.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:18:25.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:18:30.916Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:18:34.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:22:15.800Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:22:19.115Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:22:48.179Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:22:51.154Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:65:20)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T16:23:09.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:23:33.290Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:23:37.570Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:65:20)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T16:24:03.684Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:24:52.688Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:24:55.868Z"}
+error: uncaughtException: res.json is not a function
+TypeError: res.json is not a function
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:67:13 {"date":"Sun Jun 26 2022 21:54:59 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":198915},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18422014,"external":19897851,"heapTotal":91000832,"heapUsed":50336296,"rss":128851968},"pid":15048,"uid":null,"version":"v18.3.0"},"stack":"TypeError: res.json is not a function\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/user.service.js:67:13","timestamp":"2022-06-26T16:24:59.686Z","trace":[{"column":13,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/user.service.js","function":null,"line":67,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:27:36.522Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:27:39.846Z"}
+error: uncaughtException: res.json is not a function
+TypeError: res.json is not a function
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:67:13 {"date":"Sun Jun 26 2022 21:57:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":199087},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18314992,"external":19790829,"heapTotal":88903680,"heapUsed":49945688,"rss":127537152},"pid":8924,"uid":null,"version":"v18.3.0"},"stack":"TypeError: res.json is not a function\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/user.service.js:67:13","timestamp":"2022-06-26T16:27:51.866Z","trace":[{"column":13,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/user.service.js","function":null,"line":67,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:29:15.127Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:29:18.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:29:40.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:35:30.689Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:35:33.916Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'json')
+TypeError: Cannot read properties of undefined (reading 'json')
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:76:11
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\bcrypt\bcrypt.js:193:13
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Sun Jun 26 2022 22:05:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":199555},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19202315,"external":20678152,"heapTotal":90189824,"heapUsed":56715776,"rss":127762432},"pid":10636,"uid":null,"version":"v18.3.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'json')\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/user.service.js:76:11\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\bcrypt.js:193:13\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2022-06-26T16:35:39.233Z","trace":[{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/user.service.js","function":null,"line":76,"method":null,"native":false},{"column":13,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\bcrypt.js","function":null,"line":193,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:37:23.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:37:33.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T16:37:39.529Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T16:37:43.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T17:19:26.433Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T17:19:29.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T18:45:16.319Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T18:45:29.377Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T18:45:32.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T18:46:04.372Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T18:46:07.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T18:46:31.298Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T18:46:34.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T18:46:53.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T18:46:59.612Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T18:47:02.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:03:52.442Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:03:55.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:05:13.795Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:05:17.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:06:19.191Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:06:22.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:07:12.768Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:07:15.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:22:42.961Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:22:46.255Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:23:17.232Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:23:20.002Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:24:00.943Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:24:03.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:24:09.862Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:24:12.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:28:17.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:28:28.173Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:28:31.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:29:00.370Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:29:03.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:36:17.223Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:36:20.418Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T19:37:59.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:47:15.362Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:47:18.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T19:58:59.404Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T19:59:02.615Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:00:02.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:02:01.755Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:02:05.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:02:38.233Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:02:40.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:03:34.018Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:03:37.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:04:05.214Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:04:08.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:07:51.466Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:07:54.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:09:17.038Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:09:20.133Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:09:25.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:10:14.916Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:10:18.048Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:10:22.091Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:11:02.363Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:11:05.254Z"}
+error: uncaughtException: value is not defined
+ReferenceError: value is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:125:10)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9) {"date":"Mon Jun 27 2022 01:41:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":212491},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18421736,"external":19897573,"heapTotal":89427968,"heapUsed":50385168,"rss":127475712},"pid":14904,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: value is not defined\n    at _callee2$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js:125:10)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)","timestamp":"2022-06-26T20:11:15.486Z","trace":[{"column":10,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js","function":"_callee2$","line":125,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:12:00.935Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:12:04.049Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:12:15.763Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:12:18.753Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:12:22.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:13:13.539Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:13:16.904Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:13:22.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:14:17.187Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:14:20.181Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:14:29.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:15:03.368Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:15:06.212Z"}
+error: uncaughtException: Ran out of coffee
+Error: Ran out of coffee
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:125:11)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9) {"date":"Mon Jun 27 2022 01:45:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":212728},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19438373,"external":20914210,"heapTotal":89403392,"heapUsed":59808256,"rss":128159744},"pid":15680,"uid":null,"version":"v18.3.0"},"stack":"Error: Ran out of coffee\n    at _callee2$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js:125:11)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)","timestamp":"2022-06-26T20:15:12.763Z","trace":[{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js","function":"_callee2$","line":125,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:15:44.410Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:15:47.382Z"}
+error: uncaughtException: _context2.t0 is not a function
+TypeError: _context2.t0 is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:125:11)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9) {"date":"Mon Jun 27 2022 01:46:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":212779},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18298047,"external":19873206,"heapTotal":50892800,"heapUsed":46684880,"rss":90296320},"pid":10872,"uid":null,"version":"v18.3.0"},"stack":"TypeError: _context2.t0 is not a function\n    at _callee2$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js:125:11)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)","timestamp":"2022-06-26T20:16:03.058Z","trace":[{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js","function":"_callee2$","line":125,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:17:20.037Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:17:23.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:18:04.694Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:18:07.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:19:45.773Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:19:48.907Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:20:12.015Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:20:14.923Z"}
+error: uncaughtException: ABC
+Error: ABC
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:125:11)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9) {"date":"Mon Jun 27 2022 01:50:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":213033},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18726268,"external":20202105,"heapTotal":91238400,"heapUsed":52031536,"rss":129253376},"pid":7356,"uid":null,"version":"v18.3.0"},"stack":"Error: ABC\n    at _callee2$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js:125:11)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)","timestamp":"2022-06-26T20:20:17.736Z","trace":[{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js","function":"_callee2$","line":125,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:23:44.496Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:23:47.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:25:37.674Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:25:41.021Z"}
+error: uncaughtException: ABC
+Error: ABC
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:125:11)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9) {"date":"Mon Jun 27 2022 01:55:49 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":213365},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19420171,"external":20896008,"heapTotal":89665536,"heapUsed":59875792,"rss":127602688},"pid":12012,"uid":null,"version":"v18.3.0"},"stack":"Error: ABC\n    at _callee2$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js:125:11)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)","timestamp":"2022-06-26T20:25:49.534Z","trace":[{"column":11,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js","function":"_callee2$","line":125,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:26:10.768Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:26:13.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:26:24.746Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:26:27.575Z"}
+error: uncaughtException: _context2.t0 is not a function
+TypeError: _context2.t0 is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:125:5)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9) {"date":"Mon Jun 27 2022 01:56:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":213406},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19406006,"external":20881843,"heapTotal":89661440,"heapUsed":59964568,"rss":127803392},"pid":9488,"uid":null,"version":"v18.3.0"},"stack":"TypeError: _context2.t0 is not a function\n    at _callee2$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js:125:5)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)","timestamp":"2022-06-26T20:26:30.829Z","trace":[{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js","function":"_callee2$","line":125,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:26:47.267Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:26:50.484Z"}
+error: uncaughtException: _context2.t0 is not a function
+TypeError: _context2.t0 is not a function
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:125:5)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9) {"date":"Mon Jun 27 2022 01:56:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":213433},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19414242,"external":20890079,"heapTotal":89927680,"heapUsed":59865408,"rss":128077824},"pid":7780,"uid":null,"version":"v18.3.0"},"stack":"TypeError: _context2.t0 is not a function\n    at _callee2$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js:125:5)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)","timestamp":"2022-06-26T20:26:56.883Z","trace":[{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\controllers\\/user.controller.js","function":"_callee2$","line":125,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:32:30.743Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:32:33.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:34:27.738Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:34:31.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:35:16.753Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:35:19.681Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:36:12.383Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:36:15.380Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:37:21.405Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:37:24.707Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:37:32.780Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:37:40.230Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:38:08.977Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:38:11.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:38:23.271Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:38:26.559Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:38:29.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:39:47.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:40:17.254Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:40:20.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:42:21.814Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:42:24.853Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:42:30.632Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:43:23.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:43:31.160Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:43:33.993Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:43:46.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:44:07.751Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:44:10.618Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:52:54.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:53:37.030Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:53:40.732Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:53:45.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:54:38.659Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:54:42.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:55:05.688Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:55:08.604Z"}
+error: 
+    status - 500 
+    message - ReferenceError: erro is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:69:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T20:55:13.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:55:36.789Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:55:39.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:55:59.981Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:56:02.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:56:16.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:56:23.480Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:56:26.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:56:52.980Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:56:56.200Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:57:20.514Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:57:23.382Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:57:34.487Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:57:37.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:57:56.034Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:57:59.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:58:29.342Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:58:32.187Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:59:02.379Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:59:05.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:59:14.423Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:59:17.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:59:25.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T20:59:45.743Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T20:59:48.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:00:10.721Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:00:13.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:00:54.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:01:07.151Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:01:10.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:02:39.144Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:02:42.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:03:10.507Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:03:13.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:03:27.388Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:03:30.328Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:04:46.806Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:04:49.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:05:26.995Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:05:29.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:05:48.700Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:05:52.026Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:06:41.253Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:06:44.096Z"}
+error: 
+    status - 500 
+    message - ReferenceError: difError is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T21:06:46.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:12:39.762Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:38:09.220Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:38:12.349Z"}
+error: 
+    status - 500 
+    message - ReferenceError: difError is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T21:42:26.767Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 41
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:527:28)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1344:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T21:42:58.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T21:47:39.060Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T21:47:43.355Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:14:44.126Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:14:47.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:15:48.615Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:15:51.788Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'mailid')
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:62:50)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:60:19)
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:118:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T22:16:11.955Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:16:49.232Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:16:53.384Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:71:11)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T22:17:01.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:17:43.198Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:17:46.116Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:71:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T22:17:55.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:22:54.859Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:22:58.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:27:41.889Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:27:45.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:29:49.320Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:29:52.576Z"}
+error: 
+    status - 500 
+    message - ReferenceError: test is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:16)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T22:30:02.541Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:31:23.169Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:31:26.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:31:43.358Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:31:46.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:31:57.265Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:32:00.156Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-26T22:32:35.319Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T22:32:38.569Z"}
+error: 
+    status - 500 
+    message - ReferenceError: difError is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T22:32:41.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T02:43:21.189Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T02:43:24.525Z"}
+error: 
+    status - 500 
+    message - ReferenceError: difError is not defined
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:70:7)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T02:47:19.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T02:50:47.054Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T02:50:51.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T02:51:15.896Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T02:51:18.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T02:51:30.827Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T02:51:51.717Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T02:51:54.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T02:58:51.586Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T02:58:55.118Z"}
+error: 
+    status - 500 
+    message - Error: Mail Is not exist
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:77:11)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T02:59:01.803Z"}
+error: 
+    status - 500 
+    message - Error: Mail Is not exist
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:77:11)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T02:59:35.206Z"}
+error: 
+    status - 500 
+    message - Error: Password is incorrect
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:72:13)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T02:59:43.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T03:02:00.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T03:02:19.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T03:02:32.711Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T03:02:35.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T03:02:59.891Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T03:03:14.144Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T03:03:17.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T04:09:52.839Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T04:09:56.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T04:11:13.152Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T04:11:16.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T04:15:53.181Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T04:15:56.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T04:16:23.341Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T04:16:26.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T04:17:21.080Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T04:17:24.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T06:01:00.551Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T06:01:03.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T06:15:24.881Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T06:15:28.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T06:15:39.562Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T06:15:42.460Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T06:16:13.140Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T06:16:16.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T15:50:36.644Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T15:50:42.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T15:54:21.826Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T15:54:27.183Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T15:55:15.368Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T15:55:18.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T15:56:15.727Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T15:56:18.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T15:56:42.400Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T15:56:45.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T15:57:39.041Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T15:57:42.660Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T15:58:19.266Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T15:58:23.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T15:58:50.360Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T15:58:58.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T16:00:04.353Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T16:00:09.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T16:00:50.391Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T16:00:53.945Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T16:01:18.765Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T16:01:22.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T16:02:36.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T16:02:42.875Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T16:02:49.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T16:05:10.238Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T16:05:14.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:20:43.944Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:20:47.248Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:26:13.703Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:26:16.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:26:24.422Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:26:28.090Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: fname: Path `fname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T20:26:36.397Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: fname: Path `fname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T20:31:03.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:31:43.428Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:31:46.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:31:56.008Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:31:58.884Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:48:00.665Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:48:04.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:49:15.693Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:49:20.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:50:05.973Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:50:09.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:51:10.553Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:51:13.621Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:52:16.508Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:52:19.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:52:52.539Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:52:55.515Z"}

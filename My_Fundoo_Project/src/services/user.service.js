@@ -1,5 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+
 // //get all users
 // export const getAllUsers = async () => {
 //   const data = await User.find();
@@ -32,7 +34,7 @@ import bcrypt from 'bcrypt';
 //   return '';
 // };
 
-//get single user
+//// get single user
 // export const getUser = async (id) => {
 //   const data = await User.findById(id);
 //   return data;
@@ -51,4 +53,44 @@ export const newUser = async (body) => {
   const data = await User.create(body);
   return data;
 };
+
+// login User############
+
+export const login = async (body) => {
+
+  const result = await User.findOne({mailid:body.mailid});
+  // console.log(result)
+  
+  if(result!= null){
+    
+    const comparePass =await bcrypt.compare(body.password, result.password);
+    if(comparePass){
+
+      var token = jwt.sign({ email: result.mailid, id:result._id}, process.env.SECRATEKEY);
+      return token
+    
+    }else{
+      throw new Error("Password is incorrect")
+    }
+
+
+  }else{
+    throw new Error("Mail Is not exist")
+  }
+
+
+  // if(result){
+  //   const comparePass =await bcrypt.compare(body.password, result.password);
+  //   console.log(comparePass);
+  //   if(comparePass){
+  //     return result;
+  //   }
+  //   else{
+  //     difError;
+  //   }
+    
+  // }
+
+};
+
 

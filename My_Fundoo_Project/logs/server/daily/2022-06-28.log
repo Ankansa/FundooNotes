@@ -1,0 +1,44 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:20:43.944Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:20:47.248Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:26:13.703Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:26:16.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:26:24.422Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:26:28.090Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: fname: Path `fname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T20:26:36.397Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: fname: Path `fname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T20:31:03.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:31:43.428Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:31:46.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-27T20:31:56.008Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T20:31:58.884Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:48:00.665Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:48:04.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:49:15.693Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:49:20.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:50:05.973Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:50:09.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:51:10.553Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:51:13.621Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:52:16.508Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:52:19.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:52:52.539Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:52:55.515Z"}
