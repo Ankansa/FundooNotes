@@ -1,0 +1,1047 @@
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-24T10:09:09.224Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-24T10:10:57.297Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-24T10:28:46.114Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-24T10:30:06.414Z"}
+error: Could not connect to the database. URI does not have hostname, domain name and tld {"name":"MongoParseError","stack":"MongoParseError: URI does not have hostname, domain name and tld\n    at parseSrvConnectionString (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\core\\uri_parser.js:51:21)\n    at parseConnectionString (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\core\\uri_parser.js:611:12)\n    at connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\operations\\connect.js:283:3)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\mongo_client.js:284:5\n    at maybePromise (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\utils.js:692:3)\n    at MongoClient.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\mongo_client.js:280:10)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:836:12\n    at new Promise (<anonymous>)\n    at NativeConnection.Connection.openUri (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:832:19)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\config\\/database.js:12:20)","timestamp":"2022-06-24T10:33:52.792Z"}
+error: Could not connect to the database. Invalid connection string {"name":"MongoParseError","stack":"MongoParseError: Invalid connection string\n    at parseConnectionString (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\core\\uri_parser.js:585:21)\n    at connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\operations\\connect.js:283:3)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\mongo_client.js:284:5\n    at maybePromise (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\utils.js:692:3)\n    at MongoClient.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongodb\\lib\\mongo_client.js:280:10)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:836:12\n    at new Promise (<anonymous>)\n    at NativeConnection.Connection.openUri (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:832:19)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)","timestamp":"2022-06-24T10:34:49.438Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-24T10:38:16.056Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-24T10:39:17.766Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-24T10:41:44.350Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.any(...).min is not a function
+    at newUserValidator (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\validators\/user.validator.js:8:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:42:12.519Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.any(...).min is not a function
+    at newUserValidator (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\validators\/user.validator.js:8:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:44:00.463Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: mailid: Path `mailid` is required., lname: Path `lname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:44:39.616Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mailid" is required 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:50:14.858Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mail" is required 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:51:59.811Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: mailid: Path `mailid` is required., lname: Path `lname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:52:27.076Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: mailid: Path `mailid` is required., lname: Path `lname` is required.
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:57:32.620Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mail" is required 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T18:59:17.649Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo_Ankan.users index: mailid_1 dup key: { mailid: "ankan.sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:04:12.938Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:04:12.971Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan.sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:14:33.641Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:14:33.662Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mailid" must be a valid email 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:15:16.930Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" must be [ref:password] 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:16:17.357Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:26:43.447Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:26:43.488Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:27:21.900Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:27:21.938Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:32:57.405Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:32:57.450Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:34:44.133Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:34:44.156Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:37:29.317Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:37:29.338Z"}
+error: uncaughtException: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Identifier 'notFound' has already been declared. (73:16)
+
+[0m [90m 71 |[39m [90m//#### My Edited Error########################[39m[0m
+[0m [90m 72 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 73 |[39m [36mexport[39m [36mfunction[39m notFound(req[33m,[39m res) {[0m
+[0m [90m    |[39m                 [31m[1m^[22m[39m[0m
+[0m [90m 74 |[39m   res[33m.[39mstatus([33mHttpStatus[39m[33m.[39m[33mNOT_FOUND[39m)[33m.[39mjson({[0m
+[0m [90m 75 |[39m     code[33m:[39m [33mHttpStatus[39m[33m.[39m[33mNOT_FOUND[39m[33m,[39m[0m
+[0m [90m 76 |[39m     message[33m:[39m [32m'Ooops, route not found'[39m[0m
+SyntaxError: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Identifier 'notFound' has already been declared. (73:16)
+
+[0m [90m 71 |[39m [90m//#### My Edited Error########################[39m[0m
+[0m [90m 72 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 73 |[39m [36mexport[39m [36mfunction[39m notFound(req[33m,[39m res) {[0m
+[0m [90m    |[39m                 [31m[1m^[22m[39m[0m
+[0m [90m 74 |[39m   res[33m.[39mstatus([33mHttpStatus[39m[33m.[39m[33mNOT_FOUND[39m)[33m.[39mjson({[0m
+[0m [90m 75 |[39m     code[33m:[39m [33mHttpStatus[39m[33m.[39m[33mNOT_FOUND[39m[33m,[39m[0m
+[0m [90m 76 |[39m     message[33m:[39m [32m'Ooops, route not found'[39m[0m
+    at instantiate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error\credentials.js:61:22)
+    at toParseError (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error.js:58:12)
+    at Parser.raise (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\tokenizer\index.js:1736:19)
+    at ScopeHandler.checkRedeclarationInScope (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\util\scope.js:153:19)
+    at ScopeHandler.declareName (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\util\scope.js:114:12)
+    at Parser.registerFunctionStatementId (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:1347:16)
+    at Parser.parseFunction (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:1314:12)
+    at Parser.parseFunctionStatement (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:750:17)
+    at Parser.parseStatementContent (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:366:21)
+    at Parser.parseStatement (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseExportDeclaration (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:2127:17)
+    at Parser.maybeParseExportDeclaration (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:2066:31)
+    at Parser.parseExport (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:1986:29)
+    at Parser.parseStatementContent (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:431:25)
+    at Parser.parseStatement (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseBlockOrModuleBlockBody (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:1082:25) {"date":"Sat Jun 25 2022 01:17:02 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":16,"index":1656,"line":73},"pos":1656,"reasonCode":"VarRedeclaration"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":38240},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301030,"external":19757427,"heapTotal":95260672,"heapUsed":65372912,"rss":130912256},"pid":11876,"uid":null,"version":"v18.3.0"},"stack":"SyntaxError: C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\error.middleware.js: Identifier 'notFound' has already been declared. (73:16)\n\n\u001b[0m \u001b[90m 71 |\u001b[39m \u001b[90m//#### My Edited Error########################\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mfunction\u001b[39m notFound(req\u001b[33m,\u001b[39m res) {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m   res\u001b[33m.\u001b[39mstatus(\u001b[33mHttpStatus\u001b[39m\u001b[33m.\u001b[39m\u001b[33mNOT_FOUND\u001b[39m)\u001b[33m.\u001b[39mjson({\u001b[0m\n\u001b[0m \u001b[90m 75 |\u001b[39m     code\u001b[33m:\u001b[39m \u001b[33mHttpStatus\u001b[39m\u001b[33m.\u001b[39m\u001b[33mNOT_FOUND\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m     message\u001b[33m:\u001b[39m \u001b[32m'Ooops, route not found'\u001b[39m\u001b[0m\n    at instantiate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js:61:22)\n    at toParseError (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js:58:12)\n    at Parser.raise (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1736:19)\n    at ScopeHandler.checkRedeclarationInScope (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\util\\scope.js:153:19)\n    at ScopeHandler.declareName (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\util\\scope.js:114:12)\n    at Parser.registerFunctionStatementId (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1347:16)\n    at Parser.parseFunction (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1314:12)\n    at Parser.parseFunctionStatement (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:750:17)\n    at Parser.parseStatementContent (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:366:21)\n    at Parser.parseStatement (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseExportDeclaration (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2127:17)\n    at Parser.maybeParseExportDeclaration (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2066:31)\n    at Parser.parseExport (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1986:29)\n    at Parser.parseStatementContent (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:431:25)\n    at Parser.parseStatement (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1082:25)","timestamp":"2022-06-24T19:47:02.343Z","trace":[{"column":22,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js","function":"instantiate","line":61,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js","function":"toParseError","line":58,"method":null,"native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.raise","line":1736,"method":"raise","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.checkRedeclarationInScope","line":153,"method":"checkRedeclarationInScope","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.declareName","line":114,"method":"declareName","native":false},{"column":16,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.registerFunctionStatementId","line":1347,"method":"registerFunctionStatementId","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseFunction","line":1314,"method":"parseFunction","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseFunctionStatement","line":750,"method":"parseFunctionStatement","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":366,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExportDeclaration","line":2127,"method":"parseExportDeclaration","native":false},{"column":31,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.maybeParseExportDeclaration","line":2066,"method":"maybeParseExportDeclaration","native":false},{"column":29,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExport","line":1986,"method":"parseExport","native":false},{"column":25,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":431,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":25,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1082,"method":"parseBlockOrModuleBlockBody","native":false}]}
+error: uncaughtException: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Unexpected token, expected "," (74:32)
+
+[0m [90m 72 |[39m[0m
+[0m [90m 73 |[39m [36mexport[39m [36mfunction[39m uniqueError(req[33m,[39m res) {[0m
+[0m[31m[1m>[22m[39m[90m 74 |[39m   res[33m.[39mstatus([33mHttpStatus[39m[33m.[39m[33mInvalid[39m status code[33m:[39m [35m11000[39m)[33m.[39mjson({[0m
+[0m [90m    |[39m                                 [31m[1m^[22m[39m[0m
+[0m [90m 75 |[39m     code[33m:[39m [33mHttpStatus[39m[33m.[39m[33mNOT_FOUND[39m[33m,[39m[0m
+[0m [90m 76 |[39m     message[33m:[39m [32m'Ooops, route not found'[39m[0m
+[0m [90m 77 |[39m   })[33m;[39m[0m
+SyntaxError: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Unexpected token, expected "," (74:32)
+
+[0m [90m 72 |[39m[0m
+[0m [90m 73 |[39m [36mexport[39m [36mfunction[39m uniqueError(req[33m,[39m res) {[0m
+[0m[31m[1m>[22m[39m[90m 74 |[39m   res[33m.[39mstatus([33mHttpStatus[39m[33m.[39m[33mInvalid[39m status code[33m:[39m [35m11000[39m)[33m.[39mjson({[0m
+[0m [90m    |[39m                                 [31m[1m^[22m[39m[0m
+[0m [90m 75 |[39m     code[33m:[39m [33mHttpStatus[39m[33m.[39m[33mNOT_FOUND[39m[33m,[39m[0m
+[0m [90m 76 |[39m     message[33m:[39m [32m'Ooops, route not found'[39m[0m
+[0m [90m 77 |[39m   })[33m;[39m[0m
+    at instantiate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error\credentials.js:61:22)
+    at toParseError (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error.js:58:12)
+    at Parser.raise (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\tokenizer\index.js:1736:19)
+    at Parser.unexpected (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\tokenizer\index.js:1781:16)
+    at Parser.expect (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\util.js:153:28)
+    at Parser.parseCallExpressionArguments (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:989:14)
+    at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:864:29)
+    at Parser.parseSubscript (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:749:19)
+    at Parser.parseSubscripts (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:705:19)
+    at Parser.parseExprSubscripts (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:690:17)
+    at Parser.parseUpdate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:663:21)
+    at Parser.parseMaybeUnary (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:632:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:384:14)
+    at Parser.parseExprOps (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:394:23)
+    at Parser.parseMaybeConditional (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:352:23)
+    at Parser.parseMaybeAssign (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:296:21) {"date":"Sat Jun 25 2022 01:18:54 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":32,"index":1712,"line":74},"pos":1712,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":38353},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18317414,"external":19773811,"heapTotal":95662080,"heapUsed":65627232,"rss":131387392},"pid":9232,"uid":null,"version":"v18.3.0"},"stack":"SyntaxError: C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\error.middleware.js: Unexpected token, expected \",\" (74:32)\n\n\u001b[0m \u001b[90m 72 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mfunction\u001b[39m uniqueError(req\u001b[33m,\u001b[39m res) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 74 |\u001b[39m   res\u001b[33m.\u001b[39mstatus(\u001b[33mHttpStatus\u001b[39m\u001b[33m.\u001b[39m\u001b[33mInvalid\u001b[39m status code\u001b[33m:\u001b[39m \u001b[35m11000\u001b[39m)\u001b[33m.\u001b[39mjson({\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 75 |\u001b[39m     code\u001b[33m:\u001b[39m \u001b[33mHttpStatus\u001b[39m\u001b[33m.\u001b[39m\u001b[33mNOT_FOUND\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m     message\u001b[33m:\u001b[39m \u001b[32m'Ooops, route not found'\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 77 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n    at instantiate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js:61:22)\n    at toParseError (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js:58:12)\n    at Parser.raise (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1736:19)\n    at Parser.unexpected (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1781:16)\n    at Parser.expect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\util.js:153:28)\n    at Parser.parseCallExpressionArguments (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:989:14)\n    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:864:29)\n    at Parser.parseSubscript (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:749:19)\n    at Parser.parseSubscripts (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:705:19)\n    at Parser.parseExprSubscripts (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:17)\n    at Parser.parseUpdate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:663:21)\n    at Parser.parseMaybeUnary (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:632:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:384:14)\n    at Parser.parseExprOps (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:394:23)\n    at Parser.parseMaybeConditional (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:352:23)\n    at Parser.parseMaybeAssign (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:296:21)","timestamp":"2022-06-24T19:48:54.668Z","trace":[{"column":22,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js","function":"instantiate","line":61,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js","function":"toParseError","line":58,"method":null,"native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.raise","line":1736,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.unexpected","line":1781,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":153,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCallExpressionArguments","line":989,"method":"parseCallExpressionArguments","native":false},{"column":29,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":864,"method":"parseCoverCallAndAsyncArrowHead","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscript","line":749,"method":"parseSubscript","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscripts","line":705,"method":"parseSubscripts","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":690,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":663,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":632,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":384,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":394,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":352,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":296,"method":"parseMaybeAssign","native":false}]}
+error: uncaughtException: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Unexpected token, expected "," (74:23)
+
+[0m [90m 72 |[39m[0m
+[0m [90m 73 |[39m [36mexport[39m [36mfunction[39m uniqueError(req[33m,[39m res) {[0m
+[0m[31m[1m>[22m[39m[90m 74 |[39m   res[33m.[39mstatus([33mHttpStatus[39m[35m.11000[39m)[33m.[39mjson({[0m
+[0m [90m    |[39m                        [31m[1m^[22m[39m[0m
+[0m [90m 75 |[39m     code[33m:[39m [33mHttpStatus[39m[33m.[39m[33mNOT_FOUND[39m[33m,[39m[0m
+[0m [90m 76 |[39m     message[33m:[39m [32m'Ooops, route not found'[39m[0m
+[0m [90m 77 |[39m   })[33m;[39m[0m
+SyntaxError: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Unexpected token, expected "," (74:23)
+
+[0m [90m 72 |[39m[0m
+[0m [90m 73 |[39m [36mexport[39m [36mfunction[39m uniqueError(req[33m,[39m res) {[0m
+[0m[31m[1m>[22m[39m[90m 74 |[39m   res[33m.[39mstatus([33mHttpStatus[39m[35m.11000[39m)[33m.[39mjson({[0m
+[0m [90m    |[39m                        [31m[1m^[22m[39m[0m
+[0m [90m 75 |[39m     code[33m:[39m [33mHttpStatus[39m[33m.[39m[33mNOT_FOUND[39m[33m,[39m[0m
+[0m [90m 76 |[39m     message[33m:[39m [32m'Ooops, route not found'[39m[0m
+[0m [90m 77 |[39m   })[33m;[39m[0m
+    at instantiate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error\credentials.js:61:22)
+    at toParseError (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error.js:58:12)
+    at Parser.raise (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\tokenizer\index.js:1736:19)
+    at Parser.unexpected (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\tokenizer\index.js:1781:16)
+    at Parser.expect (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\util.js:153:28)
+    at Parser.parseCallExpressionArguments (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:989:14)
+    at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:864:29)
+    at Parser.parseSubscript (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:749:19)
+    at Parser.parseSubscripts (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:705:19)
+    at Parser.parseExprSubscripts (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:690:17)
+    at Parser.parseUpdate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:663:21)
+    at Parser.parseMaybeUnary (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:632:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:384:14)
+    at Parser.parseExprOps (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:394:23)
+    at Parser.parseMaybeConditional (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:352:23)
+    at Parser.parseMaybeAssign (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:296:21) {"date":"Sat Jun 25 2022 01:19:24 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":23,"index":1703,"line":74},"pos":1703,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":38382},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18278778,"external":19735175,"heapTotal":97570816,"heapUsed":59026976,"rss":129482752},"pid":12696,"uid":null,"version":"v18.3.0"},"stack":"SyntaxError: C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\error.middleware.js: Unexpected token, expected \",\" (74:23)\n\n\u001b[0m \u001b[90m 72 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mfunction\u001b[39m uniqueError(req\u001b[33m,\u001b[39m res) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 74 |\u001b[39m   res\u001b[33m.\u001b[39mstatus(\u001b[33mHttpStatus\u001b[39m\u001b[35m.11000\u001b[39m)\u001b[33m.\u001b[39mjson({\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 75 |\u001b[39m     code\u001b[33m:\u001b[39m \u001b[33mHttpStatus\u001b[39m\u001b[33m.\u001b[39m\u001b[33mNOT_FOUND\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m     message\u001b[33m:\u001b[39m \u001b[32m'Ooops, route not found'\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 77 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n    at instantiate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js:61:22)\n    at toParseError (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js:58:12)\n    at Parser.raise (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1736:19)\n    at Parser.unexpected (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1781:16)\n    at Parser.expect (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\util.js:153:28)\n    at Parser.parseCallExpressionArguments (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:989:14)\n    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:864:29)\n    at Parser.parseSubscript (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:749:19)\n    at Parser.parseSubscripts (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:705:19)\n    at Parser.parseExprSubscripts (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:17)\n    at Parser.parseUpdate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:663:21)\n    at Parser.parseMaybeUnary (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:632:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:384:14)\n    at Parser.parseExprOps (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:394:23)\n    at Parser.parseMaybeConditional (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:352:23)\n    at Parser.parseMaybeAssign (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:296:21)","timestamp":"2022-06-24T19:49:24.188Z","trace":[{"column":22,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js","function":"instantiate","line":61,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js","function":"toParseError","line":58,"method":null,"native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.raise","line":1736,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.unexpected","line":1781,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":153,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCallExpressionArguments","line":989,"method":"parseCallExpressionArguments","native":false},{"column":29,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":864,"method":"parseCoverCallAndAsyncArrowHead","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscript","line":749,"method":"parseSubscript","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscripts","line":705,"method":"parseSubscripts","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":690,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":663,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":632,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":384,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":394,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":352,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":296,"method":"parseMaybeAssign","native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:50:42.210Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:50:42.247Z"}
+error: uncaughtException: schema is not defined
+ReferenceError: schema is not defined
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:73:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\/index.js:10:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12) {"date":"Sat Jun 25 2022 01:23:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":38614},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18451819,"external":19911138,"heapTotal":89223168,"heapUsed":49056664,"rss":123699200},"pid":12796,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: schema is not defined\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js:73:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:10:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)","timestamp":"2022-06-24T19:53:16.426Z","trace":[{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js","function":null,"line":73,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false}]}
+error: uncaughtException: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Unexpected token (79:1)
+
+[0m [90m 77 |[39m     next()[33m;[39m[0m
+[0m [90m 78 |[39m   }[0m
+[0m[31m[1m>[22m[39m[90m 79 |[39m })[33m;[39m[0m
+[0m [90m    |[39m  [31m[1m^[22m[39m[0m
+SyntaxError: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Unexpected token (79:1)
+
+[0m [90m 77 |[39m     next()[33m;[39m[0m
+[0m [90m 78 |[39m   }[0m
+[0m[31m[1m>[22m[39m[90m 79 |[39m })[33m;[39m[0m
+[0m [90m    |[39m  [31m[1m^[22m[39m[0m
+    at instantiate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error\credentials.js:61:22)
+    at toParseError (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error.js:58:12)
+    at Parser.raise (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\tokenizer\index.js:1736:19)
+    at Parser.unexpected (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\tokenizer\index.js:1781:16)
+    at Parser.parseExprAtom (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:1310:22)
+    at Parser.parseExprSubscripts (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:684:23)
+    at Parser.parseUpdate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:663:21)
+    at Parser.parseMaybeUnary (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:632:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:384:14)
+    at Parser.parseExprOps (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:394:23)
+    at Parser.parseMaybeConditional (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:352:23)
+    at Parser.parseMaybeAssign (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:296:21)
+    at Parser.parseExpressionBase (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:221:23)
+    at callback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:214:39)
+    at Parser.allowInAnd (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:2968:16)
+    at Parser.parseExpression (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\expression.js:214:17) {"date":"Sat Jun 25 2022 01:27:27 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":1,"index":1833,"line":79},"pos":1833,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":38865},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18278778,"external":21568169,"heapTotal":95211520,"heapUsed":60631000,"rss":130277376},"pid":8492,"uid":null,"version":"v18.3.0"},"stack":"SyntaxError: C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\error.middleware.js: Unexpected token (79:1)\n\n\u001b[0m \u001b[90m 77 |\u001b[39m     next()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 78 |\u001b[39m   }\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    at instantiate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js:61:22)\n    at toParseError (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js:58:12)\n    at Parser.raise (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1736:19)\n    at Parser.unexpected (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1781:16)\n    at Parser.parseExprAtom (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1310:22)\n    at Parser.parseExprSubscripts (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:684:23)\n    at Parser.parseUpdate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:663:21)\n    at Parser.parseMaybeUnary (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:632:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:384:14)\n    at Parser.parseExprOps (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:394:23)\n    at Parser.parseMaybeConditional (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:352:23)\n    at Parser.parseMaybeAssign (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:296:21)\n    at Parser.parseExpressionBase (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:221:23)\n    at callback (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:214:39)\n    at Parser.allowInAnd (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2968:16)\n    at Parser.parseExpression (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js:214:17)","timestamp":"2022-06-24T19:57:27.378Z","trace":[{"column":22,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js","function":"instantiate","line":61,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js","function":"toParseError","line":58,"method":null,"native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.raise","line":1736,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.unexpected","line":1781,"method":"unexpected","native":false},{"column":22,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1310,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":684,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":663,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":632,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":384,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":394,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":352,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":296,"method":"parseMaybeAssign","native":false},{"column":23,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExpressionBase","line":221,"method":"parseExpressionBase","native":false},{"column":39,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":214,"method":null,"native":false},{"column":16,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2968,"method":"allowInAnd","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExpression","line":214,"method":"parseExpression","native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:58:06.230Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:58:06.266Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T19:58:33.454Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T19:58:33.478Z"}
+error: uncaughtException: schema is not defined
+ReferenceError: schema is not defined
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:73:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\/index.js:10:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12) {"date":"Sat Jun 25 2022 01:30:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":39043},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19103221,"external":20563267,"heapTotal":87912448,"heapUsed":56131696,"rss":122822656},"pid":11980,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: schema is not defined\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js:73:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:10:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)","timestamp":"2022-06-24T20:00:24.838Z","trace":[{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js","function":null,"line":73,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false}]}
+error: uncaughtException: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Identifier 'appErrorHandler' has already been declared. (73:16)
+
+[0m [90m 71 |[39m [90m//#### My Edited Error########################[39m[0m
+[0m [90m 72 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 73 |[39m [36mexport[39m [36mfunction[39m appErrorHandler(err[33m,[39m req[33m,[39m res[33m,[39m next) {[0m
+[0m [90m    |[39m                 [31m[1m^[22m[39m[0m
+[0m [90m 74 |[39m   [36mif[39m (err[33m.[39mcode [33m&&[39m [36mtypeof[39m err[33m.[39mcode [33m===[39m [32m'number'[39m) {[0m
+[0m [90m 75 |[39m     logger[33m.[39merror([32m`[39m[0m
+[0m [90m 76 |[39m [32m      status - ${err.code}[39m[0m
+SyntaxError: C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\error.middleware.js: Identifier 'appErrorHandler' has already been declared. (73:16)
+
+[0m [90m 71 |[39m [90m//#### My Edited Error########################[39m[0m
+[0m [90m 72 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 73 |[39m [36mexport[39m [36mfunction[39m appErrorHandler(err[33m,[39m req[33m,[39m res[33m,[39m next) {[0m
+[0m [90m    |[39m                 [31m[1m^[22m[39m[0m
+[0m [90m 74 |[39m   [36mif[39m (err[33m.[39mcode [33m&&[39m [36mtypeof[39m err[33m.[39mcode [33m===[39m [32m'number'[39m) {[0m
+[0m [90m 75 |[39m     logger[33m.[39merror([32m`[39m[0m
+[0m [90m 76 |[39m [32m      status - ${err.code}[39m[0m
+    at instantiate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error\credentials.js:61:22)
+    at toParseError (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parse-error.js:58:12)
+    at Parser.raise (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\tokenizer\index.js:1736:19)
+    at ScopeHandler.checkRedeclarationInScope (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\util\scope.js:153:19)
+    at ScopeHandler.declareName (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\util\scope.js:114:12)
+    at Parser.registerFunctionStatementId (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:1347:16)
+    at Parser.parseFunction (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:1314:12)
+    at Parser.parseFunctionStatement (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:750:17)
+    at Parser.parseStatementContent (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:366:21)
+    at Parser.parseStatement (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseExportDeclaration (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:2127:17)
+    at Parser.maybeParseExportDeclaration (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:2066:31)
+    at Parser.parseExport (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:1986:29)
+    at Parser.parseStatementContent (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:431:25)
+    at Parser.parseStatement (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseBlockOrModuleBlockBody (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\parser\src\parser\statement.js:1082:25) {"date":"Sat Jun 25 2022 01:32:50 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":16,"index":1656,"line":73},"pos":1656,"reasonCode":"VarRedeclaration"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":39189},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18309222,"external":19765619,"heapTotal":95662080,"heapUsed":65815448,"rss":131571712},"pid":13192,"uid":null,"version":"v18.3.0"},"stack":"SyntaxError: C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\error.middleware.js: Identifier 'appErrorHandler' has already been declared. (73:16)\n\n\u001b[0m \u001b[90m 71 |\u001b[39m \u001b[90m//#### My Edited Error########################\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mfunction\u001b[39m appErrorHandler(err\u001b[33m,\u001b[39m req\u001b[33m,\u001b[39m res\u001b[33m,\u001b[39m next) {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m   \u001b[36mif\u001b[39m (err\u001b[33m.\u001b[39mcode \u001b[33m&&\u001b[39m \u001b[36mtypeof\u001b[39m err\u001b[33m.\u001b[39mcode \u001b[33m===\u001b[39m \u001b[32m'number'\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m 75 |\u001b[39m     logger\u001b[33m.\u001b[39merror(\u001b[32m`\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m \u001b[32m      status - ${err.code}\u001b[39m\u001b[0m\n    at instantiate (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js:61:22)\n    at toParseError (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js:58:12)\n    at Parser.raise (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1736:19)\n    at ScopeHandler.checkRedeclarationInScope (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\util\\scope.js:153:19)\n    at ScopeHandler.declareName (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\util\\scope.js:114:12)\n    at Parser.registerFunctionStatementId (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1347:16)\n    at Parser.parseFunction (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1314:12)\n    at Parser.parseFunctionStatement (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:750:17)\n    at Parser.parseStatementContent (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:366:21)\n    at Parser.parseStatement (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseExportDeclaration (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2127:17)\n    at Parser.maybeParseExportDeclaration (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2066:31)\n    at Parser.parseExport (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1986:29)\n    at Parser.parseStatementContent (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:431:25)\n    at Parser.parseStatement (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1082:25)","timestamp":"2022-06-24T20:02:50.814Z","trace":[{"column":22,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js","function":"instantiate","line":61,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parse-error.js","function":"toParseError","line":58,"method":null,"native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.raise","line":1736,"method":"raise","native":false},{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.checkRedeclarationInScope","line":153,"method":"checkRedeclarationInScope","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.declareName","line":114,"method":"declareName","native":false},{"column":16,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.registerFunctionStatementId","line":1347,"method":"registerFunctionStatementId","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseFunction","line":1314,"method":"parseFunction","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseFunctionStatement","line":750,"method":"parseFunctionStatement","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":366,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExportDeclaration","line":2127,"method":"parseExportDeclaration","native":false},{"column":31,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.maybeParseExportDeclaration","line":2066,"method":"maybeParseExportDeclaration","native":false},{"column":29,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExport","line":1986,"method":"parseExport","native":false},{"column":25,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":431,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":25,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1082,"method":"parseBlockOrModuleBlockBody","native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:06:41.324Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:06:41.356Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:07:28.737Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:07:28.778Z"}
+error: uncaughtException: emailVerificationTokenSchema is not defined
+ReferenceError: emailVerificationTokenSchema is not defined
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:73:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\/index.js:10:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12) {"date":"Sat Jun 25 2022 01:40:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":39642},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18451819,"external":19911178,"heapTotal":91058176,"heapUsed":48146080,"rss":124903424},"pid":11980,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: emailVerificationTokenSchema is not defined\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js:73:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:10:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)","timestamp":"2022-06-24T20:10:24.460Z","trace":[{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js","function":null,"line":73,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false}]}
+error: uncaughtException: emailVerificationTokenSchema is not defined
+ReferenceError: emailVerificationTokenSchema is not defined
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:91:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\/index.js:10:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12) {"date":"Sat Jun 25 2022 01:41:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":39680},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19122036,"external":20582321,"heapTotal":88174592,"heapUsed":57538232,"rss":123056128},"pid":13264,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: emailVerificationTokenSchema is not defined\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js:91:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:10:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)","timestamp":"2022-06-24T20:11:02.354Z","trace":[{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js","function":null,"line":91,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false}]}
+error: uncaughtException: emailVerificationTokenSchema is not defined
+ReferenceError: emailVerificationTokenSchema is not defined
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:91:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\/index.js:10:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12) {"date":"Sat Jun 25 2022 01:41:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":39713},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19113828,"external":20574814,"heapTotal":88698880,"heapUsed":57394952,"rss":123826176},"pid":10452,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: emailVerificationTokenSchema is not defined\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js:91:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:10:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)","timestamp":"2022-06-24T20:11:35.227Z","trace":[{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/error.middleware.js","function":null,"line":91,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:12:05.647Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:12:05.678Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:13:01.963Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:13:02.000Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:13:44.888Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:13:44.909Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:18:56.394Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:18:56.415Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:19:17.993Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:19:18.016Z"}
+error: uncaughtException: fro is not defined
+ReferenceError: fro is not defined
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\/index.js:41:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Sat Jun 25 2022 01:50:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":40259},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19305278,"external":20781095,"heapTotal":88961024,"heapUsed":59461176,"rss":123031552},"pid":1996,"uid":null,"version":"v18.3.0"},"stack":"ReferenceError: fro is not defined\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js:41:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-06-24T20:20:40.765Z","trace":[{"column":1,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:27:51.106Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:27:51.144Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Ankan_Test_Fundoo.users index: mailid_1 dup key: { mailid: "ankan05sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:28:20.934Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:28:20.967Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo_Ankan.users index: mailid_1 dup key: { mailid: "ankan.sark@gmail.com" } 
+      url - /api/v1/users/newuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T20:30:23.746Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:377:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:815:9)
+    at ServerResponse.end (node:_http_outgoing:923:5)
+    at ServerResponse.send (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:30:23.785Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" must be [ref:password] 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T20:34:14.287Z"}
+error: 
+    status - 500 
+    message - ReferenceError: hashedpassword is not defined
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:51:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:46:21)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\controllers\/user.controller.js:103:36)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T03:09:42.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:53:27) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T03:10:55.933Z"}
