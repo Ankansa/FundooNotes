@@ -286,10 +286,13 @@
           ]
         }
       },
+
+
+
       "/note/archive/{_id}": {
         "put": {
           "tags": ["Notes"],
-          "summary": "Archieve and unarhive a note for User",
+          "summary": "Archieve a note for User",
           "produces": [],
           "parameters": [
             {
@@ -314,10 +317,47 @@
           ]
         }
       },
-      "/note/trash/{_id}": {
+
+
+
+      "/note/unarchive/{_id}": {
         "put": {
           "tags": ["Notes"],
-          "summary": "Send or remove a note from trash",
+          "summary": "Unarhive a note for User",
+          "produces": [],
+          "parameters": [
+            {
+              "name": "_id",
+              "in": "path",
+              "required": true,
+              "type": "string"
+            }
+          ],
+          "responses": {
+            "202": {
+              "description": "note unarchieved succesfully"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
+      },
+
+
+
+
+
+
+      "/note/movetrash/{_id}": {
+        "put": {
+          "tags": ["Notes"],
+          "summary": "Send a note to trash",
           "produces": [],
           "parameters": [
             {
@@ -341,8 +381,45 @@
             }
           ]
         }
+      },
+
+
+
+
+
+
+      "/note/removetrash/{_id}": {
+        "put": {
+          "tags": ["Notes"],
+          "summary": "Remove a note from trash",
+          "produces": [],
+          "parameters": [
+            {
+              "name": "_id",
+              "in": "path",
+              "required": true,
+              "type": "string"
+            }
+          ],
+          "responses": {
+            "202": {
+              "description": "note remove from trash succesfully"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "JWT": []
+            }
+          ]
+        }
       }
+
+
     },
+
   
     "securityDefinitions": {
       "JWT": {

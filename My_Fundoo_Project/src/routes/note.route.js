@@ -27,15 +27,22 @@ noteRouter.put("/:_id",userAuth,noteController.UpdateNote)
 
 noteRouter.delete("/:_id",userAuth,noteController.deleteNote)
 
-// Archive And Unarchive Note ##############
+// Archive Note ##############
 
 noteRouter.put("/archive/:_id",userAuth,noteController.archive)
 
+// Unarchive Note ##############
+
+noteRouter.put("/unarchive/:_id",userAuth,noteController.Unarchive)
+
+
 // Move to Trash and remove from trash Note ##############
 
-noteRouter.put("/trash/:_id",userAuth,noteController.trash)
+noteRouter.put("/movetrash/:_id",userAuth,noteController.movetrash)
 
 
+// Move to Trash and remove from trash Note ##############
 
+noteRouter.put("/removetrash/:_id",userAuth,noteController.removetrash)
 
 export default noteRouter;

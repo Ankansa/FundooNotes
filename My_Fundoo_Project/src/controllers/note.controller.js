@@ -109,15 +109,32 @@ export const archive = async(req, res,next) =>{
   }
 };
 
-// In archive any required to handel error ??????????????????????????
+// Unarchive notes ################
 
 
-// Trash notes ################
-
-
-export const trash = async(req, res,next) =>{
+export const Unarchive = async(req, res,next) =>{
   try {
-    const data = await NoteService.trash(req.params._id,req.body.UserID);
+    const data = await NoteService.noteUnarchive(req.params._id, req.body.UserID);
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'Note Unarchive successfully'
+        });
+  }catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    }); 
+  }
+};
+
+
+// Move Trash notes ################
+
+
+export const movetrash = async(req, res,next) =>{
+  try {
+    const data = await NoteService.movetrash(req.params._id,req.body.UserID);
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,
@@ -131,3 +148,21 @@ export const trash = async(req, res,next) =>{
   }
 };
 
+// Remove Trash notes ################
+
+
+export const removetrash = async(req, res,next) =>{
+  try {
+    const data = await NoteService.removetrash(req.params._id,req.body.UserID);
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'Note successfully remove from Trash'
+        });
+  }catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    }); 
+  }
+};

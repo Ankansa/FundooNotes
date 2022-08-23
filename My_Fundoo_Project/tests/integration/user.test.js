@@ -54,7 +54,7 @@ describe('User APIs Test', () => {
 // Positive senario ##############
 
 describe('User', () => {
-  it('given new user when added should return status 201', (done) => {
+  it('Successfull registrationshould return status 201', (done) => {
     const userdetails = {
       First_name: 'Ankan',
       Second_name: 'Sarkar',
@@ -76,22 +76,21 @@ describe('User', () => {
 // User registration ##############
 // Negetive senario ##############
 
-it('given user unsuccessfull registration should return status 400', (done) => {
-  const userdetails = {
-    First_name: "11111111111",
+  it('Unsuccessfull registration should return status 400', (done) => {
+    const userdetails = {
+      First_name: "11111111111",
       Second_name: "222222222",
       mailid: "33333333333",
       password: "44444444444"
   };
-  request(app)
-    .post('/api/v1/users')
-    .send(userdetails)
-    .end((err, res) => {
-      expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
-      done();
-    });
-
-});
+    request(app)
+      .post('/api/v1/users')
+      .send(userdetails)
+      .end((err, res) => {
+        expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
+        done();
+      });
+  });
 
 
 // User login ##############
@@ -138,39 +137,38 @@ describe('User', () => {
 // Forget password ##############
 // Positive senario ##############
 
-// describe('User', () => {
-//   it('Forget password should return status 200', (done) => {
-//     const userdetails = {
-//       mailid: 'ankan.sark@gmail.com'
-//     };
-//     request(app)
-//       .post('/api/v1/users/forgetPass')
-//       .send(userdetails)
-//       .end((err, res) => {
-//         expect(res.statusCode).to.be.equal(HttpStatus.OK);
-//         done();
-//       });
+describe('User', () => {
+  it('Forget password should return status 200', (done) => {
+    const userdetails = {
+      mailid: 'ankan.sark@gmail.com'
+    };
+    request(app)
+      .post('/api/v1/users/forgetPass')
+      .send(userdetails)
+      .end((err, res) => {
+        expect(res.statusCode).to.be.equal(HttpStatus.OK);
+        
+      });
+      done();
+  });
 
-//   });
+// Forget password ##############
+// Negetive senario ##############
 
-// // Forget password ##############
-// // Negetive senario ##############
-
-//   it('Forget password unsuccessfull login should return status 400', (done) => {
-//     const userdetails = {
-//       mailid: 'as@gmail.c'
-//     };
-//     request(app)
-//       .post('/api/v1/users/forgetPass')
-//       .send(userdetails)
-//       .end((err, res) => {
-//         expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
-//         done();
-//       });
-
-//   });
+  it('Forget password unsuccessfull login should return status 400', (done) => {
+    const userdetails = {
+      mailid: 'as@gmail.c'
+    };
+    request(app)
+      .post('/api/v1/users/forgetPass')
+      .send(userdetails)
+      .end((err, res) => {
+        expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
+      });
+      done();
+  });
   
-// });
+});
 
 
 // Create New Note ##############
@@ -352,11 +350,11 @@ it('Delete note authentication failed should return status 400', (done) => {
 });
 
 
-// Archive And Unarchive Note ##############
+// Archive Note ##############
 // Positive senario ##############
 
 describe('Note', () => {
-  it('Archive And Unarchive Note by note id should return status 200 ', (done) => {
+  it('Archive Note by note id should return status 200 ', (done) => {
     const userdetails = { };
     request(app)
       .put(`/api/v1/note/archive/${noteid}`)
@@ -367,10 +365,10 @@ describe('Note', () => {
       });
   });
 
-// Archive And Unarchive Note ######################
+// Archive Note ######################
 // Negetive senario ##############
 
-it('Archive And Unarchive Note authentication failed should return status 400', (done) => {
+it('Archive Note authentication failed should return status 400', (done) => {
   const userdetails = { };
   request(app)
     .put(`/api/v1/note/archive/${noteid}`)
@@ -381,6 +379,99 @@ it('Archive And Unarchive Note authentication failed should return status 400', 
     });
   });
 });
+
+// Unarchive Note ##############
+// Positive senario ##############
+
+describe('Note', () => {
+  it('Unarchive Note by note id should return status 200 ', (done) => {
+    const userdetails = { };
+    request(app)
+      .put(`/api/v1/note/unarchive/${noteid}`)
+      .set('Authorization', `Bearer ${loginToken}`) 
+      .end((err, res) => {
+        expect(res.statusCode).to.be.equal(HttpStatus.OK);
+        done();
+      });
+  });
+
+// Unarchive Note ######################
+// Negetive senario ##############
+
+it('Unarchive Note authentication failed should return status 400', (done) => {
+  const userdetails = { };
+  request(app)
+    .put(`/api/v1/note/unarchive/${noteid}`)
+    // .set('Authorization', `Bearer ${loginToken}`) 
+    .end((err, res) => {
+      expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
+      done();
+    });
+  });
+});
+
+
+// Move to trash Note ##############
+// Positive senario ##############
+
+describe('Note', () => {
+  it('Move to trash by note id should return status 200 ', (done) => {
+    const userdetails = { };
+    request(app)
+      .put(`/api/v1/note/movetrash/${noteid}`)
+      .set('Authorization', `Bearer ${loginToken}`) 
+      .end((err, res) => {
+        expect(res.statusCode).to.be.equal(HttpStatus.OK);
+        done();
+      });
+  });
+
+// Move to trash Note ##############
+// Negetive senario ##############
+
+it('Move to trash by note id authentication failed should return status 400', (done) => {
+  const userdetails = { };
+  request(app)
+    .put(`/api/v1/note/movetrash/${noteid}`)
+    // .set('Authorization', `Bearer ${loginToken}`) 
+    .end((err, res) => {
+      expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
+      done();
+    });
+  });
+});
+
+// Remove from trash Note ##############
+// Positive senario ##############
+
+describe('Note', () => {
+  it('Remove from trash by note id should return status 200 ', (done) => {
+    const userdetails = { };
+    request(app)
+      .put(`/api/v1/note/removetrash/${noteid}`)
+      .set('Authorization', `Bearer ${loginToken}`) 
+      .end((err, res) => {
+        expect(res.statusCode).to.be.equal(HttpStatus.OK);
+        done();
+      });
+  });
+
+// Move to trash Note ##############
+// Negetive senario ##############
+
+it('Remove from trash by note id authentication failed should return status 400', (done) => {
+  const userdetails = { };
+  request(app)
+    .put(`/api/v1/note/removetrash/${noteid}`)
+    // .set('Authorization', `Bearer ${loginToken}`) 
+    .end((err, res) => {
+      expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
+      done();
+    });
+  });
+});
+
+
 
 
 
