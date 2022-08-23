@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
+import { redisdb } from './config/redis';
 
 
 import swaggerUi from 'swagger-ui-express';
@@ -37,6 +38,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 
 database();
+redisdb();
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);
