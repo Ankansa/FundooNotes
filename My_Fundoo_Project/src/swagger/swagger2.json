@@ -70,7 +70,7 @@
           }
         }
       },
-      "/users/forgotpassword": {
+      "/users/forgetPass": {
         "post": {
           "tags": ["User"],
           "summary": "Forget password",
@@ -97,14 +97,14 @@
           }
         }
       },
-      "/users/resetPassword": {
-        "post": {
+      "/users/{_token}": {
+        "put": {
           "tags": ["User"],
           "summary": "reset password for User",
           "produces": [],
           "parameters": [
             {
-              "name": "token",
+              "name": "_token",
               "in": "path",
               "required": true,
               "type": "string"

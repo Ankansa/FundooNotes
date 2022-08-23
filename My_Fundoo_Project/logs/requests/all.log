@@ -2805,3 +2805,333 @@ info: ::1 - - [05/Jul/2022:14:21:28 +0000] "POST /api/v1/users/forgetPass HTTP/1
 
 info: ::1 - - [05/Jul/2022:14:25:17 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [05/Jul/2022:14:48:11 +0000] "POST /api/v1/users/ HTTP/1.1" 201 335 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:14:48:36 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:15:45:23 +0000] "PUT /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDMyNTA5fQ.jQc54aYI0oRMX2-iy1D0bYDVd4V-33icDj4eYyCk0do HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:15:46:18 +0000] "PUT /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDMyNTA5fQ.jQc54aYI0oRMX2-iy1D0bYDVd4V-33icDj4eYyCk0do HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:15:48:18 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:15:49:22 +0000] "PUT /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDM2MDkyfQ.FPw9nRtb7s6K7E7gdingNNeI9sffY_dKydeBgNSsqGQ HTTP/1.1" 200 286 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:15:56:41 +0000] "PUT /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDM2MDkyfQ.FPw9nRtb7s6K7E7gdingNNeI9sffY_dKydeBgNSsqGQ HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:16:04:07 +0000] "PUT /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDM2MDkyfQ.FPw9nRtb7s6K7E7gdingNNeI9sffY_dKydeBgNSsqGQ HTTP/1.1" 200 287 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:16:11:14 +0000] "GET /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDM2MDkyfQ.FPw9nRtb7s6K7E7gdingNNeI9sffY_dKydeBgNSsqGQ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:16:11:15 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+error: uncaughtException: data and salt arguments required
+Error: data and salt arguments required
+    at Object.hash (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee4$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\services\/user.service.js:116:31)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Jul 06 2022 00:43:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":225159},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18925485,"external":21407741,"heapTotal":183050240,"heapUsed":152469608,"rss":227102720},"pid":6756,"uid":null,"version":"v18.3.0"},"stack":"Error: data and salt arguments required\n    at Object.hash (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\bcrypt.js:137:17)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.hash (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\bcrypt.js:133:25)\n    at _callee4$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/user.service.js:116:31)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\bcrypt.js","function":"Object.hash","line":137,"method":"hash","native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\promises.js","function":null,"line":29,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\promises.js","function":"Object.module.exports.promise","line":20,"method":"promise","native":false},{"column":25,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\bcrypt\\bcrypt.js","function":"Object.hash","line":133,"method":"hash","native":false},{"column":31,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\services\\/user.service.js","function":"_callee4$","line":116,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [05/Jul/2022:19:15:02 +0000] "PUT /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDM2MDkyfQ.FPw9nRtb7s6K7E7gdingNNeI9sffY_dKydeBgNSsqGQ HTTP/1.1" 500 67 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:17:10 +0000] "PUT /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDM2MDkyfQ.FPw9nRtb7s6K7E7gdingNNeI9sffY_dKydeBgNSsqGQ HTTP/1.1" 200 280 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:19:14 +0000] "PUT /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDM2MDkyfQ.FPw9nRtb7s6K7E7gdingNNeI9sffY_dKydeBgNSsqGQ HTTP/1.1" 200 331 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:21:09 +0000] "PUT /api/v1/users/resetpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDM2MDkyfQ.FPw9nRtb7s6K7E7gdingNNeI9sffY_dKydeBgNSsqGQ HTTP/1.1" 200 331 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:22:12 +0000] "PUT /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDM2MDkyfQ.FPw9nRtb7s6K7E7gdingNNeI9sffY_dKydeBgNSsqGQ HTTP/1.1" 200 331 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:32:13 +0000] "GET /api/v1/users/62c44f2be4f87c35c808f973 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:32:33 +0000] "GET /api/v1/note/62c44f2be4f87c35c808f973 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:33:51 +0000] "GET /api/v1/note/62c44f2be4f87c35c808f973 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:38:49 +0000] "GET /api/v1/note/62c44f2be4f87c35c808f973 HTTP/1.1" 200 287 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:43:30 +0000] "GET /api/v1/note/62c44f2be4f87c35c808f973 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:45:53 +0000] "GET /api/v1/note/62c44f2be4f87c35c808f973 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:48:45 +0000] "POST /api/v1/user/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:49:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:50:12 +0000] "GET /api/v1/note/62c26d720ea2172130704966 HTTP/1.1" 200 285 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:50:54 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:51:00 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:51:37 +0000] "GET /api/v1/note/62c202f699ac9326b49af033 HTTP/1.1" 200 288 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:52:05 +0000] "GET /api/v1/note/62c26d720ea2172130704966 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:56:35 +0000] "GET /api/v1/note/62c26d720ea2172130704966 HTTP/1.1" 200 117 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:59:18 +0000] "GET /api/v1/note/62c26d720ea2172130704966 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:01:21 +0000] "GET /api/v1/note/62c26d720ea2172130704966 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:02:45 +0000] "GET /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 200 321 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:08:02 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 200 321 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:08:32 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 200 362 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:16:13 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 200 344 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:17:50 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 200 333 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:18:35 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:18:42 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:19:51 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:46:42 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:46:53 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:47:00 +0000] "PUT /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 200 336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:54:26 +0000] "DELETE /api/v1/note/62c285647bf4762efcc77ee8 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:55:34 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:55:37 +0000] "POST /api/v1/note HTTP/1.1" 201 295 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:20:56:36 +0000] "DELETE /api/v1/note/62c4a549ff2c2c0708af5e77 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:15:20 +0000] "POST /api/v1/note HTTP/1.1" 201 295 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:15:28 +0000] "POST /api/v1/note HTTP/1.1" 201 285 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:16:31 +0000] "PUT /api/v1/note//archive/62c4a9ef441b8308ec89fcf6 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:18:10 +0000] "PUT /api/v1/note//archive/62c4a9ef441b8308ec89fcf6 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:19:53 +0000] "PUT /api/v1/note//archive/62c4a9ef441b8308ec89fcf6 HTTP/1.1" 400 42 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:21:18 +0000] "PUT /api/v1/note/archive/62c4a9ef441b8308ec89fcf6 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:21:50 +0000] "PUT /api/v1/note/archive/62c26d720ea2172130704966 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:24:25 +0000] "PUT /api/v1/note/archive/62c4a9ef441b8308ec89fcf6 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:30:11 +0000] "PUT /api/v1/note/archive/62c4a9ef441b8308ec89fcf6 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:31:10 +0000] "PUT /api/v1/note/archive/62c4a9ef441b8308ec89fcf6 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:21:35:26 +0000] "PUT /api/v1/note/archive/62c4a9ef441b8308ec89fcf6 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:22:12:36 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:12:36 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:12:43 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:12:43 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:12:43 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:12:43 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:12:43 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11756 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:12:44 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:15:48 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 200 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:17:42 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:20:30 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:20:30 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11760 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:20:30 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:20:30 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:20:30 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:20:31 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:21:13 +0000] "PUT /api/v1/users/resetPass/%7B_token%7D HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:22:48 +0000] "PUT /api/v1/users/resetPass/%7B_token%7D HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:24:14 +0000] "PUT /api/v1/users/resetPass/%7B_token%7D HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:24:21 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:24:21 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:24:21 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:24:21 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11751 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:24:21 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:24:22 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:24:43 +0000] "POST /api/v1/users/%7B_token%7D HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:19 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:19 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:19 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:19 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:19 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:20 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:56 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:56 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:56 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:56 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:56 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11750 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:26:57 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:27:23 +0000] "PUT /api/v1/users/%7B_token%7D HTTP/1.1" 500 48 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:28:27 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 400 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:28:51 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 200 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:29:57 +0000] "PUT /api/v1/users/%7B_token%7D HTTP/1.1" 500 48 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:30:46 +0000] "PUT /api/v1/note/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDYwMTI0fQ.WnQ4-BQAQ1sykV4Dn3FCv-wlIqyxmlUA3E1jjv-4t_Y HTTP/1.1" 500 313 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:22:31:01 +0000] "PUT /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDYwMTI0fQ.WnQ4-BQAQ1sykV4Dn3FCv-wlIqyxmlUA3E1jjv-4t_Y HTTP/1.1" 200 331 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:22:32:25 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:32:25 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:32:25 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:32:25 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:32:25 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:32:25 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:33:00 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:34:13 +0000] "POST /api/v1/note HTTP/1.1" 400 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:36:07 +0000] "POST /api/v1/note HTTP/1.1" 400 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:39:06 +0000] "POST /api/v1/note HTTP/1.1" 201 325 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:39:39 +0000] "PUT /api/v1/note/archive/62c4bd8abb83583744389cee HTTP/1.1" 200 324 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:39:42 +0000] "PUT /api/v1/note/archive/62c4bd8abb83583744389cee HTTP/1.1" 200 325 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:40:34 +0000] "PUT /api/v1/users/%7B_token%7D HTTP/1.1" 500 48 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:41:12 +0000] "PUT /api/v1/users/%7B_token%7D HTTP/1.1" 500 48 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:47:13 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:47:13 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11751 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:47:13 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:47:13 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:47:13 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:47:14 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:22:47:37 +0000] "PUT /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MDYwMTI0fQ.WnQ4-BQAQ1sykV4Dn3FCv-wlIqyxmlUA3E1jjv-4t_Y HTTP/1.1" 200 331 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:03:09:37 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:03:09:37 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:03:09:37 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:03:09:37 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:03:09:37 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:03:10:36 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 200 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:03:12:00 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 200 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'log')
+TypeError: Cannot read properties of undefined (reading 'log')
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:42:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at forgetPassAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:38:28)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:365:14) {"date":"Wed Jul 06 2022 12:45:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":268459},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18385752,"external":20864048,"heapTotal":122245120,"heapUsed":116798032,"rss":166621184},"pid":13120,"uid":null,"version":"v18.3.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'log')\n    at _callee2$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/auth.middleware.js:42:19)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at forgetPassAuth (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/auth.middleware.js:38:28)\n    at Layer.handle [as handle_request] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\index.js:365:14)","trace":[{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/auth.middleware.js","function":"_callee2$","line":42,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":28,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/auth.middleware.js","function":"forgetPassAuth","line":38,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":14,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\index.js","function":"param","line":365,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'log')
+TypeError: Cannot read properties of undefined (reading 'log')
+    at _callee2$ (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:42:19)
+    at tryCatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at forgetPassAuth (C:\Users\ankan\My_Fundo\My_Fundoo_Project\src\middlewares\/auth.middleware.js:38:28)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\ankan\My_Fundo\My_Fundoo_Project\node_modules\express\lib\router\index.js:365:14) {"date":"Wed Jul 06 2022 12:48:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":268611},"process":{"argv":["node","C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\index.js"],"cwd":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18333081,"external":20811377,"heapTotal":120934400,"heapUsed":115664280,"rss":164241408},"pid":12860,"uid":null,"version":"v18.3.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'log')\n    at _callee2$ (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/auth.middleware.js:42:19)\n    at tryCatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at forgetPassAuth (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/auth.middleware.js:38:28)\n    at Layer.handle [as handle_request] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\index.js:365:14)","trace":[{"column":19,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/auth.middleware.js","function":"_callee2$","line":42,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":28,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\src\\middlewares\\/auth.middleware.js","function":"forgetPassAuth","line":38,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":14,"file":"C:\\Users\\ankan\\My_Fundo\\My_Fundoo_Project\\node_modules\\express\\lib\\router\\index.js","function":"param","line":365,"method":null,"native":false}]}
+info: ::1 - - [06/Jul/2022:07:21:37 +0000] "PUT /api/v1/users/djnodnvodnvonvosdndvnodnvonvodsdonvodn HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:19:01:36 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:19:01:36 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:19:01:36 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:19:01:36 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:19:01:36 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:19:02:29 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 200 411 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:19:03:59 +0000] "PUT /api/v1/users/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsaWQiOiJhbmthbi5zYXJrQGdtYWlsLmNvbSIsImlkIjoiNjJjNDRmMmJlNGY4N2MzNWM4MDhmOTczIiwiaWF0IjoxNjU3MTM0MTQwfQ.FnZ1Ar559bJi-vCqnWxaNZ-VylanWbb4GzBPCu5xVcY HTTP/1.1" 200 331 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:19:05:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:19:06:07 +0000] "POST /api/v1/users/login HTTP/1.1" 400 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jul/2022:19:06:42 +0000] "POST /api/v1/users/login HTTP/1.1" 400 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
